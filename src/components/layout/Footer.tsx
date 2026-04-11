@@ -72,20 +72,46 @@ export default function Footer() {
 </div>
 
         <div>
-          <h4 className="font-heading font-bold text-white mb-4 text-sm uppercase tracking-wider">Follow Us</h4>
-          <div className="flex flex-col gap-3">
-            {[
-              { name: "Facebook", icon: "📘", href: "https://www.facebook.com/Metamergeinfotech/" },
-              { name: "LinkedIn", icon: "💼", href: "http://www.linkedin.com/in/Metamerge" },
-              { name: "Instagram", icon: "📸", href: "https://instagram.com/_Metamerge" },
-              {name: "YouTube",icon: "▶️", href: "https://www.youtube.com/@METAMERGE-b3x"},
-            ].map((s) => (
-              <a key={s.name} href={s.href} target="_blank" rel="noreferrer" className="flex items-center gap-2 text-slate-400 hover:text-blue-400 text-sm transition-colors">
-                <span>{s.icon}</span>{s.name}
-              </a>
-            ))}
-          </div>
-        </div>
+  <h4 className="font-heading font-bold text-white mb-4 text-sm uppercase tracking-wider">
+    Follow Us
+  </h4>
+
+  <div className="flex flex-col gap-3">
+    {[
+      {
+        name: "Facebook",
+        icon: "📘",
+        href: "https://www.facebook.com/profile.php?id=61587519725103",
+      },
+      {
+        name: "LinkedIn",
+        icon: "💼",
+        href: "http://www.linkedin.com/in/Metamerge",
+      },
+      {
+        name: "Instagram",
+        icon: "📸",
+        href: "https://www.instagram.com/meta_merge745/",
+      },
+      {
+        name: "YouTube",
+        icon: "▶️",
+        href: "https://www.youtube.com/@METAMERGE-b3x",
+      },
+    ].map((s) => (
+      <a
+        key={s.name}
+        href={s.href}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center gap-3 text-slate-400 hover:text-blue-400 text-sm transition-all duration-300 hover:translate-x-1"
+      >
+        <span className="text-lg">{s.icon}</span>
+        {s.name}
+      </a>
+    ))}
+  </div>
+</div>
       </div>
       <div className="max-w-7xl mx-auto mt-10 pt-6 border-t border-white/5 text-center text-slate-500 text-xs">
         © 2026 All Rights Reserved — Metamerge Pvt Ltd
