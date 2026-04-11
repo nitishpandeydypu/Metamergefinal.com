@@ -173,7 +173,7 @@ In One App</span>
 From lead generation to closing sales, supporting customers to marketing automation — everything is now in your control. Boost your business with our All-In-One CRM software designed for Indian entrepreneurs.            </p>
             <div className="flex flex-wrap gap-4">
               <Link href="/contact" className="btn-primary text-white font-semibold px-8 py-3 rounded-full text-sm">Contact Us →</Link>
-              <a href="https://wa.me/918187944832" className="btn-green text-white font-semibold px-8 py-3 rounded-full text-sm flex items-center gap-2">
+              <a href="https://wa.me/917827944832" className="btn-green text-white font-semibold px-8 py-3 rounded-full text-sm flex items-center gap-2">
                 💬 WhatsApp Us
               </a>
             </div>
@@ -259,7 +259,7 @@ From lead generation to closing sales, supporting customers to marketing automat
             </div>
 
             <a
-              href="https://wa.me/918187944832"
+              href="https://wa.me/917827944832"
               className="btn-green inline-block text-white font-semibold px-8 py-3 rounded-full text-sm"
             >
               💬 Talk to Our Team
@@ -338,7 +338,7 @@ From lead generation to closing sales, supporting customers to marketing automat
                 </ul>
 
                 <a
-                  href="https://wa.me/918187944832?text=Hi%20I%20would%20like%20to%20Buy%20Metamerge%20All%20in%20One%20CRM"
+                  href="https://wa.me/917827944832?text=Hi%20I%20would%20like%20to%20Buy%20Metamerge%20All%20in%20One%20CRM"
                   className={`block w-full text-center font-semibold py-3 rounded-xl text-sm transition-all duration-300 ${
                     plan.popular
                       ? "btn-green text-white"
@@ -395,7 +395,7 @@ From lead generation to closing sales, supporting customers to marketing automat
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <a
-              href="https://wa.me/918187944832"
+              href="https://wa.me/917827944832"
               className="bg-white text-green-700 font-bold px-10 py-3 rounded-full text-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
             >
               💬 Talk to Sales
