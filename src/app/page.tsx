@@ -102,8 +102,6 @@
         allowFullScreen
       ></iframe>
     </div>
-
-  );
 }
 //     <div>
 //       {/* Hero */}
