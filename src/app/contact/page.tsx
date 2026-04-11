@@ -14,7 +14,7 @@ export default function ContactPage() {
   const handleSubmit = (e: React.MouseEvent) => {
     e.preventDefault();
     const msg = `Hi, I am ${form.name}. Contact: ${form.contact}. Email: ${form.email}. Found via: ${form.found}. Role: ${form.role}. Requirement: ${form.requirement}. Note: ${form.note}`;
-    window.open(`https://wa.me/918187944832?text=${encodeURIComponent(msg)}`, "_blank");
+    window.open(`https://wa.me/917827944832?text=${encodeURIComponent(msg)}`, "_blank");
   };
 
   return (
@@ -39,9 +39,9 @@ export default function ContactPage() {
             <h2 className="font-heading text-3xl font-bold text-white mb-8">Our Contact</h2>
             <div className="space-y-6">
               {[
-                { icon: "📍", label: "Address", value: "B-334, Plot A-4, Sector 132, Noida, Uttar Pradesh, 201301" },
-                { icon: "✉️", label: "Email Address", value: "Metamergeinfotech@gmail.com", href: "mailto:Metamergeinfotech@gmail.com" },
-                { icon: "📞", label: "Call Us", value: "+918187944832", href: "tel:+918187944832" },
+                { icon: "📍", label: "Address", value: "QM39+Q5H, Ambi - Ambale Road,Talegaon Dabadhe,Ambi,Pune,Maharashtra 410507" },
+                { icon: "✉️", label: "Email Address", value: "Metamerge745@gmail.com", href: "mailto:Metamerge745@gmail.com" },
+                { icon: "📞", label: "Call Us", value: "+917827944832", href: "tel:+97827944832" },
               ].map((item) => (
                 <div key={item.label} className="flex gap-4 bg-[#111827] border border-white/5 rounded-2xl p-5">
                   <div className="text-2xl mt-0.5">{item.icon}</div>
@@ -62,10 +62,10 @@ export default function ContactPage() {
               <h3 className="font-heading font-bold text-white mb-4">Social Media</h3>
               <div className="flex flex-wrap gap-3">
                 {[
-                  { name: "Facebook", icon: "📘", href: "https://www.facebook.com/Metamergeinfotech/" },
+                  { name: "Facebook", icon: "📘", href: "https://www.facebook.com/Metamerge745/" },
                   { name: "LinkedIn", icon: "💼", href: "http://www.linkedin.com/in/Metamerge" },
-                  { name: "Instagram", icon: "📸", href: "https://instagram.com/_Metamerge" },
-                  { name: "YouTube", icon: "▶️", href: "https://www.youtube.com/@Metamergeinfotech" },
+                  { name: "Instagram", icon: "📸", href: "https://instagram.com/_Meta_merge" },
+                  { name: "YouTube", icon: "▶️", href: "https://www.youtube.com/@@METAMERGE-b3x" },
                   { name: "Twitter / X", icon: "🐦", href: "#" },
                 ].map((s) => (
                   <a key={s.name} href={s.href} target="_blank" rel="noreferrer"
@@ -81,7 +81,7 @@ export default function ContactPage() {
               <h3 className="font-heading font-bold text-white mb-3">⏰ Support Hours</h3>
               <p className="text-slate-300 text-sm">Monday to Friday</p>
               <p className="text-blue-400 font-bold text-lg">9:00 AM – 7:00 PM IST</p>
-              <p className="text-slate-400 text-xs mt-2">Support No: 918187944832</p>
+              <p className="text-slate-400 text-xs mt-2">Support No: 917827944832</p>
             </div>
           </div>
 
@@ -91,7 +91,7 @@ export default function ContactPage() {
             <div className="bg-[#111827] border border-white/5 rounded-2xl p-8 space-y-5">
               {[
                 { name: "name", label: "Your Name", type: "text", placeholder: "John Doe" },
-                { name: "contact", label: "Contact Number", type: "tel", placeholder: "+91 9876543210" },
+                { name: "contact", label: "Contact Number", type: "tel", placeholder: "+91 7827944832" },
                 { name: "email", label: "Email Address", type: "email", placeholder: "you@example.com" },
               ].map((field) => (
                 <div key={field.name}>
