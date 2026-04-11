@@ -100,7 +100,7 @@
     src="https://www.youtube.com/embed/VP1rFacoOb0"
     title="Demo Video"
     allowFullScreen
-  />
+  ></iframe>
 </div>
 //     <div>
 //       {/* Hero */}
