@@ -101,7 +101,7 @@ export default function DownloadPage() {
                 <p className="text-slate-400 text-sm leading-relaxed mb-6">{p.desc}</p>
                 <div className="flex gap-3">
                   <a
-                    href="https://wa.me/918187944832"
+                    href="https://wa.me/917827944832"
                     className="btn-green text-white text-sm font-semibold px-6 py-2.5 rounded-xl flex items-center gap-2"
                   >
                     💬 Buy on WhatsApp
