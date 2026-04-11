@@ -146,7 +146,7 @@ export default function CrmPage() {
                   ))}
                 </ul>
                 <a
-                  href="https://wa.me/918187944832?text=Hi%20I%20would%20like%20to%20Buy%20All%20in%20CRM"
+                  href="https://wa.me/917827944832?text=Hi%20I%20would%20like%20to%20Buy%20All%20in%20CRM"
                   className={`text-white text-center font-semibold py-3 rounded-xl text-sm block ${plan.highlight ? "btn-primary" : "btn-green"}`}
                 >
                   Buy Now
