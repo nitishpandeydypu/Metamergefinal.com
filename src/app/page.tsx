@@ -58,7 +58,7 @@
 //       "WhatsApp Business API allows businesses to send automated messages, notifications, and marketing campaigns to customers at scale.",
 //   },
 //   {
-//     question: "How does Metamerge help with WhatsApp marketing?",
+//      question: "How does Metamerge help with WhatsApp marketing?",
 //     answer:
 //       "Metamerge provides WhatsApp bulk messaging tools, chatbot automation, campaign analytics, and CRM integration to help businesses grow.",
 //   },
