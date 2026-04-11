@@ -121,6 +121,11 @@
   {/* Get Started */}
   <Link href="/contact" className="btn-primary text-white font-semibold px-8 py-3.5 rounded-full text-sm">
     Get Started Free →
+ <div className="flex flex-wrap gap-4">
+
+  {/* Get Started */}
+  <Link href="/contact" className="btn-primary text-white font-semibold px-8 py-3.5 rounded-full text-sm">
+    Get Started Free →
   </Link>
 
   {/* WhatsApp */}
@@ -131,7 +136,7 @@
     💬 Chat on WhatsApp
   </a>
 
-  {/* Download Button */}
+  {/* Download */}
   <a 
     href="https://github.com/nitishpandeydypu/Metamergefinal.com/releases/download/v1.0.0/Metamerge.Setup.5.0.0.2.zip"
     target="_blank"
@@ -139,6 +144,8 @@
   >
     ⬇️ Download Now
   </a>
+
+</div>
 
 </div>
 
