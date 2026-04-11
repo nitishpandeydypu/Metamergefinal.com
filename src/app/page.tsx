@@ -95,7 +95,18 @@
 // ];
 
 // export default function HomePage() {
-//   return (
+//   return (export default function Home() {
+  return (
+    <div className="max-w-5xl mx-auto py-10">
+      <iframe
+        className="w-full h-[400px] rounded-xl"
+        src="https://www.youtube.com/embed/VP1rFacoOb0"
+        allowFullScreen
+      ></iframe>
+    </div>
+
+  );
+}
 //     <div>
 //       {/* Hero */}
 //       <section className="hero-bg grid-bg relative overflow-hidden py-14 px-6">
