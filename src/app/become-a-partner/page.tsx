@@ -116,7 +116,7 @@ export default function BecomeAPartner() {
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <a
-              href="https://wa.me/918187944832"
+              href="https://wa.me/917827944832"
               className="btn-green text-white font-semibold px-8 py-3.5 rounded-full text-sm flex items-center gap-2"
             >
               💬 Reseller Login
@@ -203,7 +203,7 @@ export default function BecomeAPartner() {
                 A Power that Shines Your Future! Let's play together with the latest technology, market demand & mutual support.
               </p>
               {/* <a
-                href="https://wa.me/918187944832"
+                href="https://wa.me/917827944832"
                 className="inline-block btn-green text-white font-semibold px-8 py-3 rounded-full text-sm"
               >
                 💬 Get Free Training
@@ -308,7 +308,7 @@ export default function BecomeAPartner() {
               </div>
 
               <a
-                href="https://wa.me/918187944832"
+                href="https://wa.me/917827944832"
                 className="block w-full btn-green text-white font-semibold py-3.5 rounded-xl text-sm text-center"
               >
                 💬 Contact Us on WhatsApp
@@ -329,7 +329,7 @@ export default function BecomeAPartner() {
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <a
-              href="https://wa.me/918187944832"
+              href="https://wa.me/917827944832"
               className="bg-white text-green-700 font-bold px-10 py-3 rounded-full text-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
             >
               💬 Talk to Sales
