@@ -175,6 +175,14 @@
 //           </div>
 //         {/* </div> */}
 //       </section>
+<div className="max-w-5xl mx-auto py-10">
+  <iframe
+    className="w-full h-[400px] rounded-xl"
+    src="https://www.youtube.com/embed/VP1rFacoOb0"
+    title="Demo Video"
+    allowFullScreen
+  ></iframe>
+</div>
 
 //       {/* Services */}
 //       <section className="py-14 px-6 bg-[#0d1326]">
