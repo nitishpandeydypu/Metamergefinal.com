@@ -58,7 +58,7 @@ export default function ApiSolutionPage() {
             </p>
             <div className="flex flex-wrap gap-4">
               <Link href="/contact" className="btn-green text-white font-semibold px-8 py-3 rounded-full text-sm">Free Trial →</Link>
-              <a href="https://wa.me/918187944832" className="border border-green-500/40 text-green-400 font-semibold px-8 py-3 rounded-full text-sm hover:bg-green-500/10 transition-all">
+              <a href="https://wa.me/917827944832" className="border border-green-500/40 text-green-400 font-semibold px-8 py-3 rounded-full text-sm hover:bg-green-500/10 transition-all">
                 Contact Us
               </a>
             </div>
