@@ -19,64 +19,56 @@ export default function Footer() {
     Information
   </h4>
   <ul className="space-y-2 text-sm text-slate-400">
-   
 
-    <li>
-      <Link href="/become-a-partner" className="hover:text-blue-400 transition-colors">
-        Become a Partner
-      </Link>
-    </li>
+  <li>
+    <Link href="/terms-and-conditions" className="hover:text-blue-400 transition-colors">
+      Terms & Conditions
+    </Link>
+  </li>
 
-    <li>
-      <Link href="/contact" className="hover:text-blue-400 transition-colors">
-        Contact Us
-      </Link>
-    </li>
+  <li>
+    <Link href="/privacy-policy" className="hover:text-blue-400 transition-colors">
+      Privacy Policy
+    </Link>
+  </li>
 
-    <li>
-      <Link href="/pricing" className="hover:text-blue-400 transition-colors">
-        Pricing
-      </Link>
-    </li>
+  <li>
+    <Link href="/refund-policy" className="hover:text-blue-400 transition-colors">
+      Refund Policy
+    </Link>
+  </li>
 
-    <li>
-      <Link href="/download" className="hover:text-blue-400 transition-colors">
-        Download
-      </Link>
-    </li>
-  </ul>
-</div>
+  <li>
+    <Link href="/shipping-policy" className="hover:text-blue-400 transition-colors">
+      Shipping Policy
+    </Link>
+  </li>
 
-        <div>
-  <h4 className="font-heading font-bold text-white mb-4 text-sm uppercase tracking-wider">
-    Services
-  </h4>
+  <li>
+    <Link href="/contact" className="hover:text-blue-400 transition-colors">
+      Contact Us
+    </Link>
+  </li>
 
-  <ul className="space-y-2 text-sm text-slate-400">
-    <li>
-      <Link href="/website-development" className="hover:text-blue-400 transition-colors">
-        Website Development
-      </Link>
-    </li>
+  <li>
+    <Link href="/become-a-partner" className="hover:text-blue-400 transition-colors">
+      Become a Partner
+    </Link>
+  </li>
 
-    <li>
-      <Link href="/digital-marketing-services" className="hover:text-blue-400 transition-colors">
-        Digital Marketing Services
-      </Link>
-    </li>
+  <li>
+    <Link href="/pricing" className="hover:text-blue-400 transition-colors">
+      Pricing
+    </Link>
+  </li>
 
-    <li>
-      <Link href="/api-solution" className="hover:text-blue-400 transition-colors">
-        WhatsApp Business API
-      </Link>
-    </li>
+  <li>
+    <Link href="/download" className="hover:text-blue-400 transition-colors">
+      Download
+    </Link>
+  </li>
 
-    <li>
-      <Link href="/Metamerge-all-in-one-crm" className="hover:text-blue-400 transition-colors">
-        Metamerge All In One CRM
-      </Link>
-    </li>
-  </ul>
+</ul>
 </div>
 
         <div>
