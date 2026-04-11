@@ -105,7 +105,6 @@ export default function DownloadPage() {
                     className="btn-green text-white text-sm font-semibold px-6 py-2.5 rounded-xl flex items-center gap-2"
                   >
                     💬 Buy on WhatsApp<a href="https://wa.me/917827944832">
-</a>
                   </a>
                   <Link href="/contact" className="border border-white/10 text-slate-300 text-sm font-medium px-5 py-2.5 rounded-xl hover:bg-white/5 transition-colors">
                     Learn More
