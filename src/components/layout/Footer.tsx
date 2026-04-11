@@ -78,7 +78,7 @@ export default function Footer() {
               { name: "Facebook", icon: "📘", href: "https://www.facebook.com/Metamergeinfotech/" },
               { name: "LinkedIn", icon: "💼", href: "http://www.linkedin.com/in/Metamerge" },
               { name: "Instagram", icon: "📸", href: "https://instagram.com/_Metamerge" },
-              { name: "YouTube", icon: "▶️", href: "https://www.youtube.com/@Metamergeinfotech" },
+              {name: "YouTube",icon: "▶️", href: "https://www.youtube.com/@METAMERGE-b3x"},
             ].map((s) => (
               <a key={s.name} href={s.href} target="_blank" rel="noreferrer" className="flex items-center gap-2 text-slate-400 hover:text-blue-400 text-sm transition-colors">
                 <span>{s.icon}</span>{s.name}
