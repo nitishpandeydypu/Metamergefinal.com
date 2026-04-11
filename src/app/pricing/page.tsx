@@ -17,9 +17,9 @@ const pricingTabs = [
         color: "blue", highlight: false,
       },
       {
-        name: "Button Sender Pro",
+        name: "Pro",
         price: "₹1,999", period: "/year",
-        features: ["1 PC License", "Advanced Bulk Messaging", "Contact Filtering & Segmentation", "Auto Reply & Chatbot", "Priority Support", "1 Year Free Updates", "Anti-Block Technology"],
+        features: ["10 Whatsapp Device", "WhatsApp Bulk Messaging", "Contact Import (CSV)", "Basic Scheduling", "Interactive Templates", "Send Single Messages", "Campaign Report","Opt-Out Management","Auto Reply","Chatbot","Group Grabber","Manage Group","Whatsapp Warmer","Follow Up","Call Responder"],
         color: "purple", highlight: true,
       },
       {
