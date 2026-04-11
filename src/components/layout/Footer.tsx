@@ -10,7 +10,7 @@ export default function Footer() {
             Metamerge Button Sender converts conversations into profitable sales transactions, supercharging your business growth.
           </p>
           <p className="text-slate-500 text-xs">Support: Mon–Fri, 9 AM – 7 PM</p>
-          <p className="text-slate-500 text-xs mt-1">📞 8187944832</p>
+          <p className="text-slate-500 text-xs mt-1">📞 7827944832</p>
           <p className="text-slate-500 text-xs mt-1">✉️ metamerge745@gmail.com</p>
         </div>
 
@@ -96,7 +96,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="max-w-7xl mx-auto mt-10 pt-6 border-t border-white/5 text-center text-slate-500 text-xs">
-        © 2025 All Rights Reserved — Metamerge Pvt Ltd
+        © 2026 All Rights Reserved — Metamerge Pvt Ltd
       </div>
     </footer>
   );
