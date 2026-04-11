@@ -74,7 +74,7 @@ export default function WebDevelopmentPage() {
             </p>
             <div className="flex flex-wrap gap-4">
               <Link href="/contact" className="btn-primary text-white font-semibold px-8 py-3 rounded-full text-sm">Contact Us →</Link>
-              <a href="https://wa.me/918187944832" className="btn-green text-white font-semibold px-8 py-3 rounded-full text-sm flex items-center gap-2">
+              <a href="https://wa.me/917827944832" className="btn-green text-white font-semibold px-8 py-3 rounded-full text-sm flex items-center gap-2">
                 💬 WhatsApp Us
               </a>
             </div>
