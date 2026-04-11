@@ -23,9 +23,9 @@ const pricingTabs = [
         color: "purple", highlight: true,
       },
       {
-        name: "Cloud Sender",
+        name: "Prime",
         price: "₹2,999", period: "/year",
-        features: ["Cloud-Based (No PC needed)", "24/7 Automated Messaging", "Unlimited Scheduling", "Multi-Device Support", "Advanced Analytics", "Dedicated Support"],
+        features: ["20 Whatsapp Device", "WhatsApp Bulk Messaging", "Contact Import (CSV)", "Basic Scheduling", "Interactive Templates", "Send Single Messages", "Campaign Report","Opt-Out Management","Auto Reply","Chatbot","Group Grabber","Manage Group","Whatsapp Warmer","Follow Up","Call Responder","Live Chat","AI Chatbot"],
         color: "green", highlight: false,
       },
     ],
