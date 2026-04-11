@@ -30,8 +30,8 @@ export default function Navbar() {
       {/* Top Banner */}
       <div className="bg-gradient-to-r from-green-600 via-emerald-500 to-teal-500 text-white text-center py-2 px-4 text-xs sm:text-sm font-medium">
         🚀 Boost Your Revenue 5X with WhatsApp!&nbsp;
-        <a href="https://wa.me/8187944832" className="underline font-bold hover:opacity-80">
-          Talk to Sales: +91 8187944832
+        <a href="https://wa.me/7827944832" className="underline font-bold hover:opacity-80">
+          Talk to Sales: +91 7827944832
         </a>
       </div>
 
