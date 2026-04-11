@@ -129,7 +129,7 @@ export default function PricingPage() {
             Contact us for a customized WhatsApp marketing plan tailored to your business needs.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
-            <a href="https://wa.me/918187944832" className="bg-white text-green-700 font-bold px-10 py-3 rounded-full text-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
+            <a href="https://wa.me/917827944832" className="bg-white text-green-700 font-bold px-10 py-3 rounded-full text-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
               💬 Chat on WhatsApp
             </a>
             <Link href="/contact" className="border-2 border-white/50 text-white font-semibold px-10 py-3 rounded-full text-sm hover:bg-white/10 transition-all">
