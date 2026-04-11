@@ -116,10 +116,18 @@
   {/* Get Started */}
   <Link href="/contact" className="btn-primary text-white font-semibold px-8 py-3.5 rounded-full text-sm">
     Get Started Free →
+ <div className="flex flex-wrap gap-4">
+
+  {/* Get Started */}
+  <Link href="/contact" className="btn-primary text-white font-semibold px-8 py-3.5 rounded-full text-sm">
+    Get Started Free →
   </Link>
 
   {/* WhatsApp */}
-  <a href="https://wa.me/917827944832" className="btn-green text-white font-semibold px-8 py-3.5 rounded-full text-sm flex items-center gap-2">
+  <a 
+    href="https://wa.me/917827944832" 
+    className="btn-green text-white font-semibold px-8 py-3.5 rounded-full text-sm flex items-center gap-2"
+  >
     💬 Chat on WhatsApp
   </a>
 
@@ -131,6 +139,8 @@
   >
     ⬇️ Download Now
   </a>
+
+</div>
 
 </div>
 
