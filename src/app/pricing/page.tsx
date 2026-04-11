@@ -11,20 +11,20 @@ const pricingTabs = [
     category: "Single PC",
     plans: [
       {
-        name: "Button Sender Basic",
-        price: "₹1,999", period: "/year",
-        features: ["1 PC License", "WhatsApp Bulk Messaging", "Contact Import (CSV)", "Basic Scheduling", "Email Support", "1 Month Free Updates"],
+        name: "Lite",
+        price: "₹1,499", period: "/year",
+        features: ["5 Whatsapp Device", "WhatsApp Bulk Messaging", "Contact Import (CSV)", "Basic Scheduling", "Interactive Templates", "Send Single Messages","Campaign Report","Opt-Out Management","Auto Reply","Chatbot"],
         color: "blue", highlight: false,
       },
       {
         name: "Button Sender Pro",
-        price: "₹3,499", period: "/year",
+        price: "₹1,999", period: "/year",
         features: ["1 PC License", "Advanced Bulk Messaging", "Contact Filtering & Segmentation", "Auto Reply & Chatbot", "Priority Support", "1 Year Free Updates", "Anti-Block Technology"],
         color: "purple", highlight: true,
       },
       {
         name: "Cloud Sender",
-        price: "₹5,999", period: "/year",
+        price: "₹2,999", period: "/year",
         features: ["Cloud-Based (No PC needed)", "24/7 Automated Messaging", "Unlimited Scheduling", "Multi-Device Support", "Advanced Analytics", "Dedicated Support"],
         color: "green", highlight: false,
       },
