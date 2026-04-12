@@ -3,15 +3,21 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Website Development – Metamerge",
-  description: "Professional WordPress website development services by Metamerge.",
+  description: "Professional website development services by Metamerge.",
 };
 
 const reasons = [
-  { icon: "🖥️", title: "User-Friendly Interface", desc: "WordPress is popularly known for its user-friendly interface, making it accessible even for those without technical expertise. Manage content easily so you can focus on your business." },
-  { icon: "🎨", title: "Extensive Customization Options", desc: "Thousands of themes and plugins let you tailor your website to your exact needs. Whether sleek professional design or dynamic creative layout, WordPress brings your vision to life." },
-  { icon: "🔍", title: "SEO-Friendly", desc: "Built with SEO in mind, WordPress offers plugins and features to boost your visibility on search engines. Optimize content, use SEO-friendly URLs, and integrate with Google Analytics effortlessly." },
-  { icon: "📈", title: "Scalability and Flexibility", desc: "As your business grows, WordPress grows with it. Add blogs, e-commerce stores, or membership sites with ease. Its flexibility ensures your website evolves alongside your business." },
-  { icon: "🤝", title: "Strong Community Support", desc: "WordPress boasts a vast, active community of developers, designers, and users. Access forums, tutorials, and documentation anytime you need help." },
+  { icon: "🖥️", title: "User-Friendly Interface", desc: "Our websites are designed with simplicity in mind, making them easy to use and manage without technical expertise. Update content, images, and features effortlessly." },
+
+{ icon: "🎨", title: "Custom Design for Every Need", desc: "We create fully customized designs for all types of websites — business, eCommerce, portfolio, blogs, and more — tailored to match your brand and goals." },
+
+{ icon: "⚡", title: "High Performance & Speed", desc: "Fast-loading and optimized websites ensure smooth user experience, better engagement, and improved conversion rates across all devices." },
+
+{ icon: "📱", title: "Fully Responsive Design", desc: "Your website will look perfect on mobile, tablet, and desktop. We ensure a seamless experience across all screen sizes." },
+
+{ icon: "🔍", title: "SEO & Growth Ready", desc: "Built with SEO best practices to help your website rank higher on search engines and grow your online presence effectively." },
+
+{ icon: "📈", title: "Scalable & Flexible Solutions", desc: "Whether you're starting small or scaling big, our websites can grow with your business — adding features anytime as needed." }
 ];
 
 const comparisonFeatures = [
