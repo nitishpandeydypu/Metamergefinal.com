@@ -247,7 +247,7 @@ const products = [
     {
         id: 4,
         name: "WhatsApp Bulk Sender Pro",
-        image: "/Picture1.png", // 👈 add your image here
+        image: "/Picture4.png", // 👈 add your image here
         price: 1999,
         description:
             "Send personalized bulk messages at scale with smart scheduling.",
@@ -259,7 +259,7 @@ const products = [
     {
         id: 5,
         name: "Metamerge Pilot Sender",
-        image: "/Picture1.png", // 👈 add your image here
+        image: "/Picture6.png", // 👈 add your image here
         price: 999,
         description:
             "Send personalized bulk messages at scale with smart scheduling.",
@@ -271,7 +271,7 @@ const products = [
     {
         id: 6,
         name: "WA SENDER",
-        image: "/Picture1.png", // 👈 add your image here
+        image: "/Picture7.png", // 👈 add your image here
         price: 999,
         description:
             "Send personalized bulk messages at scale with smart scheduling.",
@@ -284,7 +284,7 @@ const products = [
     {
      id: 7,
         name: "Google Map Extractor",
-        image: "/Picture1.png", // 👈 add your image here
+        image: "/Picture5.png", // 👈 add your image here
         price: 999,
         description:
             "Send personalized bulk messages at scale with smart scheduling.",
