@@ -14,8 +14,8 @@
   }
 
   body {
-    background-color: #ffffff; /* ✅ white */
-    color: #0f172a; /* ✅ dark text (slate-900) */
+    background-color: #0a0f1e;
+    color: white;
     font-family: 'DM Sans', sans-serif;
   }
 }
@@ -30,7 +30,7 @@
   }
 
   .gradient-text {
-    background: linear-gradient(135deg, #2563eb, #7c3aed, #10b981);
+    background: linear-gradient(135deg, #60a5fa, #a78bfa, #34d399);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -43,49 +43,42 @@
     background-clip: text;
   }
 
-  /* ✅ Light Hero Background */
   .hero-bg {
-    background: radial-gradient(ellipse at 20% 50%, rgba(59, 130, 246, 0.08) 0%, transparent 60%),
-                radial-gradient(ellipse at 80% 20%, rgba(139, 92, 246, 0.08) 0%, transparent 60%),
-                #ffffff;
+    background: radial-gradient(ellipse at 20% 50%, rgba(96, 165, 250, 0.08) 0%, transparent 60%),
+                radial-gradient(ellipse at 80% 20%, rgba(167, 139, 250, 0.08) 0%, transparent 60%),
+                #0a0f1e;
   }
 
-  /* ✅ Light Grid */
   .grid-bg {
-    background-image: linear-gradient(rgba(0,0,0,0.05) 1px, transparent 1px),
-                      linear-gradient(90deg, rgba(0,0,0,0.05) 1px, transparent 1px);
+    background-image: linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+                      linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
     background-size: 60px 60px;
   }
 
-  /* ✅ Light Card (Glass → Soft Card) */
   .card-glass {
-    background: #ffffff;
-    border: 1px solid #e5e7eb;
-    box-shadow: 0 8px 30px rgba(0,0,0,0.05);
+    background: rgba(17, 24, 39, 0.8);
+    border: 1px solid rgba(255,255,255,0.05);
+    backdrop-filter: blur(12px);
   }
 
-  /* ✅ Primary Button (same rehne de – acha lagta hai light me) */
   .btn-primary {
     background: linear-gradient(135deg, #3b82f6, #8b5cf6);
-    color: white;
     transition: all 0.3s ease;
   }
 
   .btn-primary:hover {
     background: linear-gradient(135deg, #2563eb, #7c3aed);
     transform: translateY(-2px);
-    box-shadow: 0 8px 24px rgba(99, 102, 241, 0.3);
+    box-shadow: 0 8px 24px rgba(99, 102, 241, 0.4);
   }
 
-  /* ✅ WhatsApp Button */
   .btn-green {
     background: linear-gradient(135deg, #25d366, #128c7e);
-    color: white;
     transition: all 0.3s ease;
   }
 
   .btn-green:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 24px rgba(37, 211, 102, 0.3);
+    box-shadow: 0 8px 24px rgba(37, 211, 102, 0.4);
   }
 }
