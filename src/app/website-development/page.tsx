@@ -7,17 +7,36 @@ export const metadata: Metadata = {
 };
 
 const reasons = [
-  { icon: "🖥️", title: "User-Friendly Interface", desc: "Our websites are designed with simplicity in mind, making them easy to use and manage without technical expertise. Update content, images, and features effortlessly." },
-
-{ icon: "🎨", title: "Custom Design for Every Need", desc: "We create fully customized designs for all types of websites — business, eCommerce, portfolio, blogs, and more — tailored to match your brand and goals." },
-
-{ icon: "⚡", title: "High Performance & Speed", desc: "Fast-loading and optimized websites ensure smooth user experience, better engagement, and improved conversion rates across all devices." },
-
-{ icon: "📱", title: "Fully Responsive Design", desc: "Your website will look perfect on mobile, tablet, and desktop. We ensure a seamless experience across all screen sizes." },
-
-{ icon: "🔍", title: "SEO & Growth Ready", desc: "Built with SEO best practices to help your website rank higher on search engines and grow your online presence effectively." },
-
-{ icon: "📈", title: "Scalable & Flexible Solutions", desc: "Whether you're starting small or scaling big, our websites can grow with your business — adding features anytime as needed." },
+{
+  icon: "🖥️",
+  title: "User-Friendly Interface",
+  desc: "Our websites are designed with simplicity in mind, making them easy to use and manage without technical expertise. Update content, images, and features effortlessly."
+},
+{
+  icon: "🎨",
+  title: "Custom Design for Every Need",
+  desc: "We create fully customized designs for all types of websites — business, eCommerce, portfolio, blogs, and more — tailored to match your brand and goals."
+},
+{
+  icon: "⚡",
+  title: "High Performance & Speed",
+  desc: "Fast-loading and optimized websites ensure smooth user experience, better engagement, and improved conversion rates across all devices."
+},
+{
+  icon: "📱",
+  title: "Fully Responsive Design",
+  desc: "Your website will look perfect on mobile, tablet, and desktop. We ensure a seamless experience across all screen sizes."
+},
+{
+  icon: "🔍",
+  title: "SEO & Growth Ready",
+  desc: "Built with SEO best practices to help your website rank higher on search engines and grow your online presence effectively."
+},
+{
+  icon: "📈",
+  title: "Scalable & Flexible Solutions",
+  desc: "Whether you're starting small or scaling big, our websites can grow with your business — adding features anytime as needed."
+}
 ];
 
 const comparisonFeatures = [
