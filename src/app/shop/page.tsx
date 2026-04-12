@@ -345,20 +345,12 @@ export default function Shop() {
                                     ₹{p.price}
                                 </div>
 
-                                <button
-  onClick={() => {
-    const phone = "917827944832"; 
-    const text = `Hello, I want ${p.name} (₹${p.price})`;
-
-    window.open(
-      `https://wa.me/${phone}?text=${encodeURIComponent(text)}`,
-      "_blank"
-    );
-  }}
-  className="bg-green-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-green-500"
->
-  {p.cta}
-</button>
+                                <Link
+                                    href={`/shop/${p.id}`}
+                                    className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-blue-500"
+                                >
+                                    {p.cta}
+                                </Link>
                             </div>
                         </div>
                     </div>
