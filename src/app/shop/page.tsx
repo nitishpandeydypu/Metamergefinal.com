@@ -332,14 +332,7 @@ export default function Shop() {
                                 ))}
                             </ul>
 
-                            {/* Price + CTA */}
-                          
-                            
-                <div className="flex items-center justify-between mt-4">
-  <div className="text-xl font-bold text-blue-600">
-    ₹{p.price}
-  </div>
-</div>
+                    
                             
                                 
                             </div>
