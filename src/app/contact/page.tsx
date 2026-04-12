@@ -6,7 +6,7 @@ export default function ContactPage() {
     name: "", contact: "", email: "",
     found: "Google", role: "Professional", requirement: "Web Development", note: "",
   });
-
+ 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
