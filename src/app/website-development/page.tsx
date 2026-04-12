@@ -17,7 +17,7 @@ const reasons = [
 
 { icon: "🔍", title: "SEO & Growth Ready", desc: "Built with SEO best practices to help your website rank higher on search engines and grow your online presence effectively." },
 
-{ icon: "📈", title: "Scalable & Flexible Solutions", desc: "Whether you're starting small or scaling big, our websites can grow with your business — adding features anytime as needed." }
+{ icon: "📈", title: "Scalable & Flexible Solutions", desc: "Whether you're starting small or scaling big, our websites can grow with your business — adding features anytime as needed." },
 ];
 
 const comparisonFeatures = [
