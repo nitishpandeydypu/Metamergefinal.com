@@ -210,14 +210,9 @@ export const metadata: Metadata = {
 const products = [
     {
         id: 1,
-        name: "WhatsApp Bulk Sender Pro",
+        name: "Metamerge Window Based Software",
         image: "/Picture1.png", // 👈 add your image here
-        price: 49,
-        description:
-            "Send personalized bulk messages at scale with smart scheduling.",
-        features: ["10,000 msgs/day", "Anti-ban shield", "Analytics dashboard"],
-        badge: "Most Popular",
-        highlight: true,
+        price: 1499,
         cta: "Get Started",
     },
     {
