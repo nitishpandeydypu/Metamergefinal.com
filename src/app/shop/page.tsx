@@ -215,7 +215,7 @@ const products = [
         price: 1499,
         description:
             "Send personalized bulk messages at scale with smart scheduling.",
-        features: ["10,000 msgs/day", "Anti-ban shield", "Analytics dashboard"],
+        features: ["Bulk Messaging", "Multi Accounts", "AI Chatbot", "Live Chat", "Group Grabber", "Button List,Poll,Carousel", "Interactive Tempelates", "Auto Reply"],
         badge: "Most Popular",
         highlight: true,
         cta: "Get Started",
@@ -224,10 +224,10 @@ const products = [
         id: 2,
         name: "MetaMerge Cloud Centre",
         image: "/Picture2.png", // 👈 add your image here
-        price: 49,
+        price: 1999,
         description:
-            "Send personalized bulk messages at scale with smart scheduling.",
-        features: ["10,000 msgs/day", "Anti-ban shield", "Analytics dashboard"],
+            "Send personalized bulk messages at scale with smart scheduling On your Phone.",
+        features: ["Unlimited Messages", "Full Automation", "CTA Buttons", "AI Chatbot 24*7", "List Menu", "Scheduling", "Auto Responder", "API Access", "Group Grabber"],
         badge: "Most Popular",
         highlight: true,
         cta: "Get Started",
@@ -236,10 +236,10 @@ const products = [
         id: 3,
         name: "WaCRM – Multi-Account WhatsApp CRM (Reseller)",
         image: "/Picture3.png", // 👈 add your image here
-        price: 1900,
+        price: 1999,
         description:
             "Send personalized bulk messages at scale with smart scheduling.",
-        features: ["10,000 msgs/day", "Anti-ban shield", "Analytics dashboard"],
+        features: ["Lead Management", "Set Remainder", "Quick Reply", "Chat Filter"],
         badge: "Most Popular",
         highlight: true,
         cta: "Get Started",
@@ -248,34 +248,47 @@ const products = [
         id: 4,
         name: "WhatsApp Bulk Sender Pro",
         image: "/Picture1.png", // 👈 add your image here
-        price: 49,
+        price: 1999,
         description:
             "Send personalized bulk messages at scale with smart scheduling.",
-        features: ["10,000 msgs/day", "Anti-ban shield", "Analytics dashboard"],
+        features: ["Lead Management", "Set Remainder", "Quick Reply", "Chat Filter"],
         badge: "Most Popular",
         highlight: true,
         cta: "Get Started",
     },
     {
         id: 5,
-        name: "WhatsApp Bulk Sender Pro",
+        name: "Metamerge Pilot Sender",
         image: "/Picture1.png", // 👈 add your image here
-        price: 49,
+        price: 999,
         description:
             "Send personalized bulk messages at scale with smart scheduling.",
-        features: ["10,000 msgs/day", "Anti-ban shield", "Analytics dashboard"],
+        features: ["Bulk Sender", "Single Instance", "AI Chatbot & Auto Reply", "Bulk Group Sender", "Group Grabber", "G-Map Extractor", "Number Filter", "Anti-Ban Setting"],
         badge: "Most Popular",
         highlight: true,
         cta: "Get Started",
     },
     {
         id: 6,
-        name: "WhatsApp Bulk Sender Pro",
+        name: "WA SENDER",
         image: "/Picture1.png", // 👈 add your image here
-        price: 49,
+        price: 999,
         description:
             "Send personalized bulk messages at scale with smart scheduling.",
-        features: ["10,000 msgs/day", "Anti-ban shield", "Analytics dashboard"],
+        features: ["Whatsapp Bulk Marketing Software"],
+        badge: "Most Popular",
+        highlight: true,
+        cta: "Get Started",
+    },
+
+    {
+     id: 7,
+        name: "Google Map Extractor",
+        image: "/Picture1.png", // 👈 add your image here
+        price: 999,
+        description:
+            "Send personalized bulk messages at scale with smart scheduling.",
+        features: ["Whatsapp Bulk Marketing Software"],
         badge: "Most Popular",
         highlight: true,
         cta: "Get Started",
