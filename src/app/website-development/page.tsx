@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 };
 
 const reasons = [
-{
+{ 
   icon: "🖥️",
   title: "User-Friendly Interface",
   desc: "Our websites are designed with simplicity in mind, making them easy to use and manage without technical expertise. Update content, images, and features effortlessly."
