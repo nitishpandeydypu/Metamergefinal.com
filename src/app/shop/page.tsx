@@ -213,6 +213,11 @@ const products = [
         name: "Metamerge Window Based Software",
         image: "/Picture1.png", // 👈 add your image here
         price: 1499,
+        description:
+            "Send personalized bulk messages at scale with smart scheduling.",
+        features: ["10,000 msgs/day", "Anti-ban shield", "Analytics dashboard"],
+        badge: "Most Popular",
+        highlight: true,
         cta: "Get Started",
     },
     {
