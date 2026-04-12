@@ -218,7 +218,6 @@ const products = [
         features: ["Bulk Messaging", "Multi Accounts", "AI Chatbot", "Live Chat", "Group Grabber", "Button List,Poll,Carousel", "Interactive Tempelates", "Auto Reply"],
         badge: "Most Popular",
         highlight: true,
-        cta: "Get Started",
     },
     {
         id: 2,
@@ -230,7 +229,6 @@ const products = [
         features: ["Unlimited Messages", "Full Automation", "CTA Buttons", "AI Chatbot 24*7", "List Menu", "Scheduling", "Auto Responder", "API Access", "Group Grabber"],
         badge: "Most Popular",
         highlight: true,
-        cta: "Get Started",
     },
     {
         id: 3,
@@ -242,7 +240,6 @@ const products = [
         features: ["Lead Management", "Set Remainder", "Quick Reply", "Chat Filter"],
         badge: "Most Popular",
         highlight: true,
-        cta: "Get Started",
     },
     {
         id: 4,
@@ -254,7 +251,6 @@ const products = [
         features: ["Lead Management", "Set Remainder", "Quick Reply", "Chat Filter"],
         badge: "Most Popular",
         highlight: true,
-        cta: "Get Started",
     },
     {
         id: 5,
@@ -266,7 +262,6 @@ const products = [
         features: ["Bulk Sender", "Single Instance", "AI Chatbot & Auto Reply", "Bulk Group Sender", "Group Grabber", "G-Map Extractor", "Number Filter", "Anti-Ban Setting"],
         badge: "Most Popular",
         highlight: true,
-        cta: "Get Started",
     },
     {
         id: 6,
@@ -278,7 +273,6 @@ const products = [
         features: ["Whatsapp Bulk Marketing Software"],
         badge: "Most Popular",
         highlight: true,
-        cta: "Get Started",
     },
 
     {
@@ -291,7 +285,6 @@ const products = [
         features: ["Whatsapp Bulk Marketing Software"],
         badge: "Most Popular",
         highlight: true,
-        cta: "Get Started",
     },
 ];
 
