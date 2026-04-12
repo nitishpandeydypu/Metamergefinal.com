@@ -12,7 +12,7 @@ const standardFeatures = [
   "Free User Initiated Conversation",
   "0.78 Business Initiated Conversation",
   "1 Account Login/OTP Service",
-  "Unsubscribers List / Advance Setting",
+  "Unsubscribers List / Advance Setting", 
   "Chatbot Creation",
   "Bulk Messaging & Scheduling",
   "Dashboard Analytics And Advance Reporting",
