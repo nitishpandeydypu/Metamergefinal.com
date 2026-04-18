@@ -108,17 +108,26 @@
 //             </h1>
 //             <p className="text-slate-400 text-lg leading-relaxed mb-10 max-w-lg">
 //               From WhatsApp bulk marketing to website development, digital marketing, and all-in-one CRM — everything your business needs to scale, in one place.
-//             </p>
-//             <div className="flex flex-wrap gap-4">
-//               <Link href="/contact" className="btn-primary text-white font-semibold px-8 py-3.5 rounded-full text-sm">
-//                 Get Started Free →
-//               </Link>
-//               <a href="https://wa.me/917827944832" className="btn-green text-white font-semibold px-8 py-3.5 rounded-full text-sm flex items-center gap-2">
-//                 💬 Chat on WhatsApp
-//               </a>
-//             </div>
-//           </div>
+//            </p>
+<div className="flex flex-wrap gap-4">
+  
+  {/* Get Started */}
+  <Link href="/contact" className="btn-primary text-white font-semibold px-8 py-3.5 rounded-full text-sm">
+    Get Started Free →
+  </Link>
 
+  {/* Download Button */}
+  <a href="/demo.pdf" download className="border-2 border-blue-600 text-blue-600 font-semibold px-8 py-3.5 rounded-full text-sm hover:bg-blue-600 hover:text-white transition">
+    ⬇ Download
+  </a>
+
+  {/* WhatsApp */}
+  <a href="https://wa.me/919234547310" className="btn-green text-white font-semibold px-8 py-3.5 rounded-full text-sm flex items-center gap-2">
+    💬 Chat on WhatsApp
+  </a>
+
+</div>
+</div>
 //           {/* Stats grid */}
 //           {/* <div className="grid grid-cols-2 gap-4"> */}
 //            <div className="relative flex justify-center lg:justify-end animate-fade-in">
