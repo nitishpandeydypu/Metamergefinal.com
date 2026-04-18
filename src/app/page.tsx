@@ -467,15 +467,16 @@ export default function HomePage() {
             <p className="text-slate-400 text-lg leading-relaxed mb-10 max-w-lg">
               From WhatsApp bulk marketing to website development, digital marketing, and all-in-one CRM — everything your business needs to scale, in one place.
             </p>
-           <div className="flex flex-wrap gap-4">
+          <div className="flex flex-wrap gap-4">
   
   <Link href="/contact" className="btn-primary text-white font-semibold px-8 py-3.5 rounded-full text-sm">
     Get Started Free →
   </Link>
 
-  {/* Download Button */}
-  <a href="/demo.pdf" download className="border-2 border-blue-600 text-blue-600 font-semibold px-8 py-3.5 rounded-full text-sm hover:bg-blue-600 hover:text-white transition">
-    ⬇ Download
+  {/* Telegram Download */}
+  <a href="https://t.me/metamerge_download/2" target="_blank"
+     className="bg-green-600 text-white font-semibold px-8 py-3.5 rounded-full text-sm hover:bg-green-700 transition">
+    ⬇ Fast Download
   </a>
 
   <a href="https://wa.me/919234547310" className="btn-green text-white font-semibold px-8 py-3.5 rounded-full text-sm flex items-center gap-2">
