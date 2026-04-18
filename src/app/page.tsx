@@ -108,7 +108,7 @@
 //             </h1>
 //             <p className="text-slate-400 text-lg leading-relaxed mb-10 max-w-lg">
 //               From WhatsApp bulk marketing to website development, digital marketing, and all-in-one CRM — everything your business needs to scale, in one place.
-//            </p>
+           </p>
 <div className="flex flex-wrap gap-4">
   
   {/* Get Started */}
