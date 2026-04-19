@@ -21,24 +21,34 @@ type Tab = {
   plans: Plan[];
 };
 
+// ✅ WhatsApp Number (India)
+const WHATSAPP_NUMBER = "917827944832";
+
+// ✅ WhatsApp Function
+const handleBuyNow = (planName: string) => {
+  const message = `Hi 👋 I want to buy the *${planName}* plan from Metamerge 🚀 Please guide me.`;
+  const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
+  window.open(url, "_blank");
+};
+
 const pricingTabs: Tab[] = [
   {
     category: "Single PC",
     plans: [
       {
-        name: "Lite",
-        price: "₹1,499",
+        name: "Starter",
+        price: "₹999",
         desc: "Best for beginners",
         features: [
-          { text: "5 WhatsApp Device", included: true },
+          { text: "1 WhatsApp Device", included: true },
           { text: "WhatsApp Bulk Messages", included: true },
           { text: "Contacts List", included: true },
           { text: "Interactive Templates", included: true },
           { text: "Send Single Message", included: true },
           { text: "Campaign Reports", included: true },
           { text: "Opt-Out Management", included: true },
-          { text: "Auto Reply", included: true },
-          { text: "Chatbot", included: true },
+          { text: "Auto Reply", included: false },
+          { text: "Chatbot", included: false },
           { text: "Group Grabber", included: false },
           { text: "Manage Group", included: false },
           { text: "Call Responder", included: false },
@@ -49,11 +59,13 @@ const pricingTabs: Tab[] = [
         ],
       },
       {
-        name: "Pro",
-        price: "₹1,999",
+        name: "Professional",
+        price: "₹1,499",
         desc: "Perfect for agencies",
+        badge: "Most Popular",
+        highlight: true,
         features: [
-          { text: "20 WhatsApp Devices", included: true },
+          { text: "10 WhatsApp Devices", included: true },
           { text: "WhatsApp Bulk Messages", included: true },
           { text: "Contacts List", included: true },
           { text: "Interactive Templates", included: true },
@@ -65,18 +77,18 @@ const pricingTabs: Tab[] = [
           { text: "Group Grabber", included: true },
           { text: "Manage Group", included: true },
           { text: "WhatsApp Warmer", included: true },
-          { text: "Follow Up", included: true },
+          { text: "Follow Up", included: false },
           { text: "Call Responder", included: false },
           { text: "Live Chat", included: false },
           { text: "AI Chatbot", included: false },
         ],
       },
       {
-        name: "Prime",
-        price: "₹2,499",
+        name: "Enterprise",
+        price: "₹1,999",
         desc: "High volume businesses",
         features: [
-          { text: "30 WhatsApp Devices", included: true },
+          { text: "20 WhatsApp Devices", included: true },
           { text: "WhatsApp Bulk Messages", included: true },
           { text: "Contacts List", included: true },
           { text: "Interactive Templates", included: true },
@@ -124,7 +136,7 @@ export default function Pricing() {
     <div className="bg-[#0b1220] min-h-screen py-20 px-6 text-white">
       <div className="max-w-7xl mx-auto">
 
-        {/* 🔥 HEADING (ADDED HERE PERFECTLY) */}
+        {/* Heading */}
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold">
             Metamerge <span className="text-blue-500">Pricing Plans</span>
@@ -214,13 +226,19 @@ export default function Pricing() {
                 ))}
               </ul>
 
-              <button className="w-full py-3 rounded-lg font-semibold transition bg-gradient-to-r from-blue-500 to-indigo-500 hover:opacity-90">
+              {/* ✅ WhatsApp Button */}
+              <button
+                onClick={() => handleBuyNow(plan.name)}
+                className="w-full py-3 rounded-lg font-semibold transition bg-gradient-to-r from-blue-500 to-indigo-500 hover:opacity-90"
+              >
                 Buy Now
               </button>
+
             </div>
           ))}
         </div>
 
+        {/* Footer */}
         <p className="text-center text-gray-500 text-sm mt-10">
           ⚠ GST Extra as per applicable rates
         </p>
