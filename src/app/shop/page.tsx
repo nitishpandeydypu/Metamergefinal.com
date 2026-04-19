@@ -1,5 +1,3 @@
-"use client";
-
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -92,6 +90,7 @@ export default function Shop() {
   return (
     <div className="min-h-screen bg-[#0a0d14] text-white py-14 px-6">
 
+      {/* GRID */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto items-stretch">
         
         {products.map((p) => (
@@ -126,7 +125,7 @@ export default function Shop() {
                 ))}
               </ul>
 
-              {/* PRICE + BUTTON (ALIGNED FIX) */}
+              {/* PRICE + BUTTON */}
               <div className="flex justify-between items-center mt-auto">
                 
                 <span className="text-xl font-bold text-blue-600">
@@ -138,6 +137,7 @@ export default function Shop() {
                     p.name
                   )}`}
                   target="_blank"
+                  rel="noopener noreferrer"
                   className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-blue-500 transition"
                 >
                   Buy Now
