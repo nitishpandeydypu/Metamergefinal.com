@@ -2,53 +2,77 @@
 
 import { useState } from "react";
 
+// 🔥 Common Feature List
+const allFeatures = [
+  "WhatsApp Device",
+  "Unlimited WhatsApp Messages",
+  "Contacts List",
+  "Interactive Templates",
+  "Send Single Message",
+  "Campaign Reports",
+  "Opt-Out Management",
+  "Auto Reply",
+  "Chatbot",
+  "Group Grabber",
+  "Manage Group",
+  "Incoming Messages",
+  "WhatsApp Warmer",
+  "Ban-Reducing Technology",
+  "Call Responder",
+  "Follow Up",
+  "Live Chat",
+  "AI Chatbot",
+];
+
 const pricingTabs = [
   {
     category: "Single PC",
     plans: [
       {
-        name: "Lite",
+        name: "Starter",
         price: "₹1,499",
-        features: [
-          "5 WhatsApp Device",
-          "Bulk Messaging",
-          "CSV Contact Import",
-          "Basic Scheduling",
+        desc: "Best for beginners",
+        devices: "5 WhatsApp Device",
+        included: [
+          "WhatsApp Device",
+          "Unlimited WhatsApp Messages",
+          "Contacts List",
           "Interactive Templates",
-          "1-to-1 Messaging",
+          "Send Single Message",
+          "Campaign Reports",
+          "Opt-Out Management",
         ],
-        highlight: false,
       },
       {
-        name: "Pro",
-        price: "₹1,999",
-        badge: "POPULAR",
-        features: [
-          "10 WhatsApp Device",
-          "Bulk Messaging",
-          "CSV Contact Import",
-          "Smart Scheduling",
-          "Interactive Templates",
-          "1-to-1 Messaging",
-          "Group Grabber",
-          "Follow Up",
-        ],
+        name: "Professional",
+        price: "₹2,499",
+        desc: "Perfect for agencies",
+        badge: "Most Popular",
         highlight: true,
+        devices: "10 WhatsApp Device",
+        included: [
+          "WhatsApp Device",
+          "Unlimited WhatsApp Messages",
+          "Contacts List",
+          "Interactive Templates",
+          "Send Single Message",
+          "Campaign Reports",
+          "Opt-Out Management",
+          "Auto Reply",
+          "Chatbot",
+          "Group Grabber",
+          "Manage Group",
+          "Incoming Messages",
+          "WhatsApp Warmer",
+          "Ban-Reducing Technology",
+        ],
       },
       {
-        name: "Prime",
-        price: "₹2,999",
-        features: [
-          "20 WhatsApp Device",
-          "Bulk Messaging",
-          "CSV Contact Import",
-          "Smart Scheduling",
-          "Interactive Templates",
-          "1-to-1 Messaging",
-          "Live Chat",
-          "AI Chatbot",
-        ],
-        highlight: false,
+        name: "Enterprise",
+        price: "₹3,499",
+        desc: "High volume businesses",
+        devices: "30 WhatsApp Device",
+        included: allFeatures,
       },
     ],
   },
@@ -58,24 +82,19 @@ const pricingTabs = [
       {
         name: "Starter",
         price: "₹4,999",
-        features: [
-          "Custom Branding",
-          "Resell License",
-          "Basic Support",
-        ],
-        highlight: false,
+        included: ["Custom Branding", "Resell License"],
       },
       {
         name: "Business",
         price: "₹9,999",
         badge: "BEST VALUE",
-        features: [
+        highlight: true,
+        included: [
           "Custom Branding",
           "Resell License",
           "Priority Support",
           "Client Panel",
         ],
-        highlight: true,
       },
     ],
   },
@@ -85,15 +104,11 @@ export default function PricingPage() {
   const [activeTab, setActiveTab] = useState(0);
 
   return (
-    <div className="bg-[#0b1220] min-h-screen text-white py-16 px-6">
+    <div className="bg-[#f5f5f5] min-h-screen py-16 px-6">
       <div className="max-w-7xl mx-auto text-center">
-        
-        {/* Heading */}
-        <p className="text-blue-400 text-sm font-semibold">
-          PRICING
-        </p>
+
         <h2 className="text-4xl font-bold mb-10">
-          Choose Your <span className="text-blue-400">Plan</span>
+          Pricing Plans
         </h2>
 
         {/* Tabs */}
@@ -104,8 +119,8 @@ export default function PricingPage() {
               onClick={() => setActiveTab(index)}
               className={`px-6 py-2 rounded-full font-medium ${
                 activeTab === index
-                  ? "bg-blue-500"
-                  : "bg-gray-800 hover:bg-gray-700"
+                  ? "bg-purple-600 text-white"
+                  : "bg-gray-200"
               }`}
             >
               {tab.category}
@@ -113,63 +128,79 @@ export default function PricingPage() {
           ))}
         </div>
 
-        {/* Pricing Cards */}
+        {/* Cards */}
         <div className="grid md:grid-cols-3 gap-8">
           {pricingTabs[activeTab].plans.map((plan, i) => (
             <div
               key={i}
-              className={`relative rounded-2xl p-6 text-left border bg-gradient-to-b from-[#0f1a2e] to-[#0b1220] ${
+              className={`relative rounded-2xl p-6 bg-white border ${
                 plan.highlight
-                  ? "border-purple-500 shadow-lg shadow-purple-900/40"
-                  : "border-gray-800"
+                  ? "border-purple-600 shadow-lg scale-105"
+                  : "border-gray-200"
               }`}
             >
               {/* Badge */}
               {plan.badge && (
-                <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-blue-500 text-xs px-3 py-1 rounded-full">
+                <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-purple-600 text-white text-xs px-4 py-1 rounded-full">
                   {plan.badge}
                 </div>
               )}
 
               {/* Name */}
-              <h3 className="text-lg font-semibold text-blue-400 mb-2">
+              <h3 className="text-xl font-semibold mb-2">
                 {plan.name}
               </h3>
 
               {/* Price */}
-              <div className="text-3xl font-bold mb-6">
+              <div className="text-4xl font-bold text-purple-700 mb-1">
                 {plan.price}
-                <span className="text-sm text-gray-400"> /year</span>
+                <span className="text-sm text-gray-500"> / Yearly</span>
               </div>
 
+              <p className="text-gray-500 mb-4">{plan.desc}</p>
+
+              {/* Devices */}
+              {plan.devices && (
+                <p className="text-sm text-purple-600 mb-4">
+                  {plan.devices}
+                </p>
+              )}
+
               {/* Features */}
-              <ul className="space-y-2 text-gray-300 mb-6">
-                {plan.features.map((f, idx) => (
-                  <li key={idx} className="flex gap-2">
-                    <span className="text-green-400">✔</span>
-                    {f}
-                  </li>
-                ))}
+              <ul className="space-y-2 text-sm mb-6 text-left">
+                {(activeTab === 0 ? allFeatures : plan.included).map(
+                  (feature, idx) => {
+                    const included = plan.included?.includes(feature);
+
+                    return (
+                      <li key={idx} className="flex gap-2 items-center">
+                        <span
+                          className={`font-bold ${
+                            included ? "text-green-600" : "text-red-500"
+                          }`}
+                        >
+                          {included ? "✔" : "✖"}
+                        </span>
+                        <span
+                          className={
+                            included ? "text-gray-800" : "text-gray-400"
+                          }
+                        >
+                          {feature}
+                        </span>
+                      </li>
+                    );
+                  }
+                )}
               </ul>
 
               {/* Button */}
-              <button
-                className={`w-full py-3 rounded-lg font-semibold bg-gradient-to-r ${
-                  plan.highlight
-                    ? "from-purple-500 to-indigo-500"
-                    : "from-blue-500 to-indigo-500"
-                }`}
-              >
-                Get Started
+              <button className="w-full py-3 bg-purple-700 text-white rounded-lg font-semibold hover:bg-purple-800">
+                Buy Now
               </button>
             </div>
           ))}
         </div>
-
-        {/* Footer Line */}
-        <p className="mt-10 text-gray-500 text-sm">
-          No API Required • No Ban Risk • Lifetime Support Included
-        </p>
       </div>
     </div>
   );
