@@ -7,29 +7,86 @@ export const metadata: Metadata = {
 };
 
 const pricingTabs = [
-  {
-    category: "Single PC",
-    plans: [
-      {
-        name: "Lite",
-        price: "₹1,499", period: "/year",
-        features: ["5 Whatsapp Device", "WhatsApp Bulk Messaging", "Contact Import (CSV)", "Basic Scheduling", "Interactive Templates", "Send Single Messages","Campaign Report","Opt-Out Management","Auto Reply","Chatbot"],
-        color: "blue", highlight: false,
-      },
-      {
-        name: "Pro",
-        price: "₹1,999", period: "/year",
-        features: ["10 Whatsapp Device", "WhatsApp Bulk Messaging", "Contact Import (CSV)", "Basic Scheduling", "Interactive Templates", "Send Single Messages", "Campaign Report","Opt-Out Management","Auto Reply","Chatbot","Group Grabber","Manage Group","Whatsapp Warmer","Follow Up","Call Responder"],
-        color: "purple", highlight: true,
-      },
-      {
-        name: "Prime",
-        price: "₹2,999", period: "/year",
-        features: ["20 Whatsapp Device", "WhatsApp Bulk Messaging", "Contact Import (CSV)", "Basic Scheduling", "Interactive Templates", "Send Single Messages", "Campaign Report","Opt-Out Management","Auto Reply","Chatbot","Group Grabber","Manage Group","Whatsapp Warmer","Follow Up","Call Responder","Live Chat","AI Chatbot"],
-        color: "green", highlight: false,
-      },
-    ],
-  },
+  export default function Pricing() {
+  const plans = [
+    {
+      name: "Starter",
+      price: "₹999",
+      desc: "Best for beginners",
+      features: [
+        "1 WhatsApp Device",
+        "Bulk Messages",
+        "Contacts List",
+        "Interactive Templates",
+        "Campaign Reports",
+      ],
+      highlight: false,
+    },
+    {
+      name: "Professional",
+      price: "₹1,499",
+      desc: "Most Popular",
+      features: [
+        "10 WhatsApp Devices",
+        "Bulk Messages",
+        "Auto Reply + Chatbot",
+        "Group Grabber",
+        "Manage Groups",
+      ],
+      highlight: true,
+    },
+    {
+      name: "Enterprise",
+      price: "₹1,999",
+      desc: "For High Volume Business",
+      features: [
+        "20 WhatsApp Devices",
+        "Everything Included",
+        "AI Chatbot",
+        "Live Chat",
+        "Call Responder",
+      ],
+      highlight: false,
+    },
+  ];
+
+  return (
+    <div className="py-16 bg-gray-100">
+      <h2 className="text-3xl font-bold text-center mb-10">
+        Pricing Plans
+      </h2>
+
+      <div className="grid md:grid-cols-3 gap-6 px-6">
+        {plans.map((plan, index) => (
+          <div
+            key={index}
+            className={`p-6 rounded-2xl shadow-lg bg-white ${
+              plan.highlight ? "border-2 border-green-500 scale-105" : ""
+            }`}
+          >
+            <h3 className="text-xl font-semibold mb-2">{plan.name}</h3>
+            <p className="text-3xl font-bold text-green-600">
+              {plan.price} <span className="text-sm">/year</span>
+            </p>
+            <p className="text-gray-500 mb-4">{plan.desc}</p>
+
+            <ul className="space-y-2 mb-6">
+              {plan.features.map((f, i) => (
+                <li key={i} className="flex items-center gap-2">
+                  ✅ {f}
+                </li>
+              ))}
+            </ul>
+
+            <button className="w-full bg-green-600 text-white py-2 rounded-lg hover:bg-green-700">
+              Buy Now
+            </button>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
   {
     category: "White Label",
     plans: [
