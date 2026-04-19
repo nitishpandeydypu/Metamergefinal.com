@@ -7,29 +7,81 @@ export const metadata: Metadata = {
 };
 
 const pricingTabs = [
-{
+  {
     category: "Single PC",
     plans: [
       {
         name: "Lite",
-        price: "₹1,499", period: "/year",
-        features: ["5 Whatsapp Device", "WhatsApp Bulk Messaging", "Contact Import (CSV)", "Basic Scheduling", "Interactive Templates", "Send Single Messages","Campaign Report","Opt-Out Management","Auto Reply","Chatbot"],
-        color: "blue", highlight: false,
+        price: "₹1,499",
+        period: "/year",
+        features: [
+          "5 Whatsapp Device",
+          "WhatsApp Bulk Messaging",
+          "Contact Import (CSV)",
+          "Basic Scheduling",
+          "Interactive Templates",
+          "Send Single Messages",
+          "Campaign Report",
+          "Opt-Out Management",
+          "Auto Reply",
+          "Chatbot"
+        ],
+        color: "blue",
+        highlight: false,
       },
       {
         name: "Pro",
-        price: "₹1,999", period: "/year",
-        features: ["10 Whatsapp Device", "WhatsApp Bulk Messaging", "Contact Import (CSV)", "Basic Scheduling", "Interactive Templates", "Send Single Messages", "Campaign Report","Opt-Out Management","Auto Reply","Chatbot","Group Grabber","Manage Group","Whatsapp Warmer","Follow Up","Call Responder"],
-        color: "purple", highlight: true,
+        price: "₹1,999",
+        period: "/year",
+        features: [
+          "10 Whatsapp Device",
+          "WhatsApp Bulk Messaging",
+          "Contact Import (CSV)",
+          "Basic Scheduling",
+          "Interactive Templates",
+          "Send Single Messages",
+          "Campaign Report",
+          "Opt-Out Management",
+          "Auto Reply",
+          "Chatbot",
+          "Group Grabber",
+          "Manage Group",
+          "Whatsapp Warmer",
+          "Follow Up",
+          "Call Responder"
+        ],
+        color: "purple",
+        highlight: true,
       },
       {
         name: "Prime",
-        price: "₹2,999", period: "/year",
-        features: ["20 Whatsapp Device", "WhatsApp Bulk Messaging", "Contact Import (CSV)", "Basic Scheduling", "Interactive Templates", "Send Single Messages", "Campaign Report","Opt-Out Management","Auto Reply","Chatbot","Group Grabber","Manage Group","Whatsapp Warmer","Follow Up","Call Responder","Live Chat","AI Chatbot"],
-        color: "green", highlight: false, 
+        price: "₹2,999",
+        period: "/year",
+        features: [
+          "20 Whatsapp Device",
+          "WhatsApp Bulk Messaging",
+          "Contact Import (CSV)",
+          "Basic Scheduling",
+          "Interactive Templates",
+          "Send Single Messages",
+          "Campaign Report",
+          "Opt-Out Management",
+          "Auto Reply",
+          "Chatbot",
+          "Group Grabber",
+          "Manage Group",
+          "Whatsapp Warmer",
+          "Follow Up",
+          "Call Responder",
+          "Live Chat",
+          "AI Chatbot"
+        ],
+        color: "green",
+        highlight: false,
       },
     ],
   },
+];
   return (
     <div className="py-16 bg-gray-100">
       <h2 className="text-3xl font-bold text-center mb-10">
