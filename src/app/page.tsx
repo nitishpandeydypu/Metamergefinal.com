@@ -708,7 +708,31 @@ export default function HomePage() {
             </Link>
           </div>
         </div>
-      </section>
+            </section>
+
+      {/* 🔥 WhatsApp Floating Support Button */}
+      <div className="fixed right-4 top-4 z-50 group">
+
+        {/* Pulse Effect */}
+        <span className="absolute inline-flex h-full w-full rounded-full bg-green-500 opacity-75 animate-ping"></span>
+
+        {/* Main Button */}
+        <a
+          href="https://wa.me/917827944832?text=Hi%20I%20need%20support"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="relative flex items-center justify-center bg-green-500 text-white rounded-full w-14 h-14 shadow-lg hover:scale-110 transition-all duration-300"
+        >
+          💬
+        </a>
+
+        {/* Tooltip */}
+        <span className="absolute right-16 top-1/2 -translate-y-1/2 bg-black text-white text-xs px-3 py-1.5 rounded-md opacity-0 group-hover:opacity-100 transition-all duration-300 whitespace-nowrap shadow-lg">
+          Chat with us
+        </span>
+
+      </div>
+
     </div>
   );
 }
