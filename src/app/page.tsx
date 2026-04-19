@@ -7,7 +7,7 @@
 //   description: "Metamerge offers WhatsApp Business API, Website Development, Digital Marketing, and CRM solutions for businesses.",
 // };
 
-// const services = [
+// const services = [ 
 //   {
 //     icon: "🌐",
 //     title: "Website Development",
