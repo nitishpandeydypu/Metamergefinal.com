@@ -2,7 +2,26 @@
 
 import { useState } from "react";
 
-const pricingTabs = [
+type Feature = {
+  text: string;
+  included: boolean;
+};
+
+type Plan = {
+  name: string;
+  price: string;
+  desc: string;
+  features: Feature[];
+  highlight?: boolean;
+  badge?: string; // ✅ optional fix
+};
+
+type Tab = {
+  category: string;
+  plans: Plan[];
+};
+
+const pricingTabs: Tab[] = [
   {
     category: "Single PC",
     plans: [
@@ -188,17 +207,9 @@ export default function Pricing() {
                 ))}
               </ul>
 
-              <button
-                className={`w-full py-3 rounded-lg font-semibold transition
-                ${
-                  plan.highlight
-                    ? "bg-gradient-to-r from-blue-500 to-indigo-500"
-                    : "bg-gradient-to-r from-blue-500 to-indigo-500"
-                }`}
-              >
+              <button className="w-full py-3 rounded-lg font-semibold transition bg-gradient-to-r from-blue-500 to-indigo-500 hover:opacity-90">
                 Buy Now
               </button>
-
             </div>
           ))}
         </div>
