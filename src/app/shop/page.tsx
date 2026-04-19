@@ -1,9 +1,6 @@
-import type { Metadata } from "next";
+"use client";
 
-export const metadata: Metadata = {
-  title: "Shop – Metamerge WhatsApp Marketing Tools",
-  description: "Explore our range of WhatsApp marketing tools and solutions.",
-};
+import Link from "next/link";
 
 const products = [
   {
@@ -11,7 +8,8 @@ const products = [
     name: "Metamerge Window Based Software",
     image: "/Picture1.png",
     price: 1499,
-    description: "Send personalized bulk messages at scale with smart scheduling.",
+    description:
+      "Send personalized bulk messages at scale with smart scheduling.",
     features: [
       "Bulk Messaging",
       "Multi Accounts",
@@ -28,14 +26,18 @@ const products = [
     name: "MetaMerge Cloud Centre",
     image: "/Picture2.png",
     price: 1999,
-    description: "Send bulk messages from your phone with automation.",
+    description:
+      "Send personalized bulk messages at scale with smart scheduling on your phone.",
     features: [
       "Unlimited Messages",
       "Full Automation",
       "CTA Buttons",
       "AI Chatbot 24x7",
+      "List Menu",
       "Scheduling",
+      "Auto Responder",
       "API Access",
+      "Group Grabber",
     ],
   },
   {
@@ -44,7 +46,7 @@ const products = [
     image: "/Picture3.png",
     price: 1999,
     description: "Manage leads and chats efficiently.",
-    features: ["Lead Management", "Quick Reply", "Chat Filter"],
+    features: ["Lead Management", "Set Reminder", "Quick Reply", "Chat Filter"],
   },
   {
     id: 4,
@@ -62,8 +64,10 @@ const products = [
     description: "Affordable bulk sender with AI tools.",
     features: [
       "Bulk Sender",
+      "Single Instance",
       "AI Chatbot",
       "Group Grabber",
+      "G-Map Extractor",
       "Number Filter",
       "Anti-Ban Setting",
     ],
@@ -74,75 +78,74 @@ const products = [
     image: "/Picture7.png",
     price: 999,
     description: "Simple WhatsApp marketing tool.",
-    features: ["Bulk Marketing"],
+    features: ["WhatsApp Bulk Marketing Software"],
   },
   {
     id: 7,
     name: "Google Map Extractor",
     image: "/Picture5.png",
     price: 999,
-    description: "Extract leads from Google Maps.",
-    features: ["Lead Extraction"],
+    description: "Extract leads directly from Google Maps.",
+    features: ["Lead Extraction", "Bulk Data Export"],
   },
 ];
 
 export default function Shop() {
   return (
-    <div className="min-h-screen bg-[#0a0d14] text-white py-14 px-6">
+    <div className="min-h-screen bg-[#0a0d14] text-white py-14 px-4">
 
       {/* GRID */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto items-stretch">
-        
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
         {products.map((p) => (
           <div
             key={p.id}
-            className="bg-white text-black rounded-2xl shadow-md overflow-hidden 
-            flex flex-col justify-between h-full
-            transition-all duration-300 hover:-translate-y-2 hover:shadow-xl"
+            className="group bg-white text-black rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2 flex flex-col"
           >
-            
-            {/* IMAGE */}
-            <div className="h-[180px] overflow-hidden">
+            {/* IMAGE FIXED */}
+            <div className="bg-gray-100 flex items-center justify-center h-56 p-3">
               <img
                 src={p.image}
                 alt={p.name}
-                className="w-full h-full object-cover"
+                className="max-h-full max-w-full object-contain transition-transform duration-300 group-hover:scale-105"
               />
             </div>
 
             {/* CONTENT */}
-            <div className="p-5 flex flex-col flex-grow">
-              
-              <h3 className="font-bold text-lg mb-1">{p.name}</h3>
+            <div className="p-5 flex flex-col flex-1">
 
+              {/* TITLE */}
+              <h3 className="font-bold text-lg mb-2">{p.name}</h3>
+
+              {/* DESC */}
               <p className="text-gray-500 text-sm mb-3">
                 {p.description}
               </p>
 
+              {/* FEATURES */}
               <ul className="text-xs text-gray-600 space-y-1 mb-4">
                 {p.features.map((f, i) => (
-                  <li key={i}>✔ {f}</li>
+                  <li key={i} className="flex items-center gap-1">
+                    <span className="text-green-500 font-bold">✔</span> {f}
+                  </li>
                 ))}
               </ul>
 
               {/* PRICE + BUTTON */}
-              <div className="flex justify-between items-center mt-auto">
-                
-                <span className="text-xl font-bold text-blue-600">
+              <div className="mt-auto flex items-center justify-between pt-4 border-t">
+                <div className="text-xl font-bold text-blue-600">
                   ₹{p.price}
-                </span>
+                </div>
 
                 <a
                   href={`https://wa.me/917827944832?text=Hi%20I%20am%20interested%20in%20${encodeURIComponent(
                     p.name
                   )}`}
                   target="_blank"
-                  rel="noopener noreferrer"
                   className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-blue-500 transition"
                 >
                   Buy Now
                 </a>
-
               </div>
             </div>
           </div>
