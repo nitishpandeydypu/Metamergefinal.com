@@ -717,24 +717,58 @@ export default function HomePage() {
           </div>
         </div>
             </section>
+{openSupport && (
+  <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm">
+    
+    <div className="bg-white w-[90%] max-w-md rounded-2xl p-6 shadow-2xl relative animate-fadeIn">
 
-     {/* 🔥 WhatsApp Floating Support Button */}
-<div className="fixed right-4 top-4 z-50 group">
+      {/* Close Button */}
+      <button
+        onClick={() => setOpenSupport(false)}
+        className="absolute top-3 right-3 text-gray-500 hover:text-black text-xl"
+      >
+        ✖
+      </button>
 
-  {/* Pulse Effect */}
-  <span className="absolute inline-flex h-full w-full rounded-full bg-green-500 opacity-75 animate-ping"></span>
+      <h2 className="text-xl font-bold mb-4 text-center">Support</h2>
 
-  {/* Main Button */}
-  <a
-    href="https://wa.me/917827944832?text=Hi%20I%20need%20support"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="relative flex items-center gap-2 bg-green-500 text-white px-5 py-3 rounded-full shadow-lg hover:scale-110 transition-all duration-300"
-  >
-    💬 <span className="font-semibold text-sm">Support</span>
-  </a>
+      <form
+        onSubmit={(e) => {
+          e.preventDefault();
+          
+          const name = e.target.name.value;
+          const msg = e.target.message.value;
 
-</div>
+          const url = `https://wa.me/917827944832?text=Hi%20I'm%20${name}%20-%20${msg}`;
+          window.open(url, "_blank");
+        }}
+        className="flex flex-col gap-3"
+      >
+        <input
+          name="name"
+          placeholder="Your Name"
+          required
+          className="border p-3 rounded-lg outline-none"
+        />
+
+        <textarea
+          name="message"
+          placeholder="Your Problem"
+          required
+          className="border p-3 rounded-lg outline-none"
+        />
+
+        <button
+          type="submit"
+          className="bg-green-500 text-white py-3 rounded-lg font-semibold hover:bg-green-600"
+        >
+          Submit & Chat on WhatsApp
+        </button>
+      </form>
+
+    </div>
+  </div>
+)}
 
     </div>
   );
