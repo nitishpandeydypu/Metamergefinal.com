@@ -56,6 +56,7 @@ const pricingTabs: Tab[] = [
           { text: "WhatsApp Warmer", included: false },
           { text: "Live Chat", included: false },
           { text: "AI Chatbot", included: false },
+          { text: "Craousel Message", included: false },
         ],
       },
       {
@@ -81,11 +82,12 @@ const pricingTabs: Tab[] = [
           { text: "Call Responder", included: false },
           { text: "Live Chat", included: false },
           { text: "AI Chatbot", included: false },
+          { text: "Craousel Message", included: false },
         ],
       },
       {
         name: "Elite",
-        price: "₹2,499",
+        price: "₹2,999",
         desc: "High volume businesses",
         features: [
           { text: "30 WhatsApp Devices", included: true },
@@ -104,6 +106,7 @@ const pricingTabs: Tab[] = [
           { text: "WhatsApp Warmer", included: true },
           { text: "Live Chat", included: true },
           { text: "AI Chatbot", included: true },
+          { text: "Craousel Message", included: true },
         ],
       },
     ],
