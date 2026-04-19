@@ -7,49 +7,29 @@ export const metadata: Metadata = {
 };
 
 const pricingTabs = [
-  export default function Pricing() {
-  const plans = [
-    {
-      name: "Starter",
-      price: "₹999",
-      desc: "Best for beginners",
-      features: [
-        "1 WhatsApp Device",
-        "Bulk Messages",
-        "Contacts List",
-        "Interactive Templates",
-        "Campaign Reports",
-      ],
-      highlight: false,
-    },
-    {
-      name: "Professional",
-      price: "₹1,499",
-      desc: "Most Popular",
-      features: [
-        "10 WhatsApp Devices",
-        "Bulk Messages",
-        "Auto Reply + Chatbot",
-        "Group Grabber",
-        "Manage Groups",
-      ],
-      highlight: true,
-    },
-    {
-      name: "Enterprise",
-      price: "₹1,999",
-      desc: "For High Volume Business",
-      features: [
-        "20 WhatsApp Devices",
-        "Everything Included",
-        "AI Chatbot",
-        "Live Chat",
-        "Call Responder",
-      ],
-      highlight: false,
-    },
-  ];
-
+{
+    category: "Single PC",
+    plans: [
+      {
+        name: "Lite",
+        price: "₹1,499", period: "/year",
+        features: ["5 Whatsapp Device", "WhatsApp Bulk Messaging", "Contact Import (CSV)", "Basic Scheduling", "Interactive Templates", "Send Single Messages","Campaign Report","Opt-Out Management","Auto Reply","Chatbot"],
+        color: "blue", highlight: false,
+      },
+      {
+        name: "Pro",
+        price: "₹1,999", period: "/year",
+        features: ["10 Whatsapp Device", "WhatsApp Bulk Messaging", "Contact Import (CSV)", "Basic Scheduling", "Interactive Templates", "Send Single Messages", "Campaign Report","Opt-Out Management","Auto Reply","Chatbot","Group Grabber","Manage Group","Whatsapp Warmer","Follow Up","Call Responder"],
+        color: "purple", highlight: true,
+      },
+      {
+        name: "Prime",
+        price: "₹2,999", period: "/year",
+        features: ["20 Whatsapp Device", "WhatsApp Bulk Messaging", "Contact Import (CSV)", "Basic Scheduling", "Interactive Templates", "Send Single Messages", "Campaign Report","Opt-Out Management","Auto Reply","Chatbot","Group Grabber","Manage Group","Whatsapp Warmer","Follow Up","Call Responder","Live Chat","AI Chatbot"],
+        color: "green", highlight: false,
+      },
+    ],
+  },
   return (
     <div className="py-16 bg-gray-100">
       <h2 className="text-3xl font-bold text-center mb-10">
