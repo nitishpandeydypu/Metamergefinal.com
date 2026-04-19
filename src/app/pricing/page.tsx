@@ -26,7 +26,7 @@ const pricingTabs = [
         name: "Prime",
         price: "₹2,999", period: "/year",
         features: ["20 Whatsapp Device", "WhatsApp Bulk Messaging", "Contact Import (CSV)", "Basic Scheduling", "Interactive Templates", "Send Single Messages", "Campaign Report","Opt-Out Management","Auto Reply","Chatbot","Group Grabber","Manage Group","Whatsapp Warmer","Follow Up","Call Responder","Live Chat","AI Chatbot"],
-        color: "green", highlight: false,
+        color: "green", highlight: false, 
       },
     ],
   },
