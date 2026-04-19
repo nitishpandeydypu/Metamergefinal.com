@@ -13,7 +13,7 @@ type Plan = {
   desc: string;
   features: Feature[];
   highlight?: boolean;
-  badge?: string; // ✅ optional fix
+  badge?: string;
 };
 
 type Tab = {
@@ -98,7 +98,6 @@ const pricingTabs: Tab[] = [
       },
     ],
   },
-
   {
     category: "White Label",
     plans: [
@@ -126,6 +125,16 @@ export default function Pricing() {
   return (
     <div className="bg-[#0b1220] min-h-screen py-20 px-6 text-white">
       <div className="max-w-7xl mx-auto">
+
+        {/* 🔥 HEADING (ADDED HERE PERFECTLY) */}
+        <div className="text-center mb-12">
+          <h1 className="text-4xl md:text-5xl font-bold">
+            Metamerge <span className="text-blue-500">Pricing Plans</span>
+          </h1>
+          <p className="text-gray-400 mt-3">
+            Choose the perfect plan for your business growth 🚀
+          </p>
+        </div>
 
         {/* Tabs */}
         <div className="flex justify-center mb-10 gap-4">
@@ -214,7 +223,6 @@ export default function Pricing() {
           ))}
         </div>
 
-        {/* Footer */}
         <p className="text-center text-gray-500 text-sm mt-10">
           ⚠ GST Extra as per applicable rates
         </p>
