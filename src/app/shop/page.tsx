@@ -1,7 +1,5 @@
 "use client";
 
-import Link from "next/link";
-
 const products = [
   {
     id: 1,
@@ -102,16 +100,17 @@ export default function Shop() {
             key={p.id}
             className="group bg-white text-black rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2 flex flex-col"
           >
-            {/* IMAGE FIXED */}
-            <div className="bg-gray-100 flex items-center justify-center h-56 p-3">
+            
+            {/* 🔥 IMAGE SECTION (FIXED BIG + PERFECT FIT) */}
+            <div className="bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center h-72 p-2 overflow-hidden">
               <img
                 src={p.image}
                 alt={p.name}
-                className="max-h-full max-w-full object-contain transition-transform duration-300 group-hover:scale-105"
+                className="h-full w-full object-contain transition-all duration-300 group-hover:scale-110"
               />
             </div>
 
-            {/* CONTENT */}
+            {/* 📦 CONTENT */}
             <div className="p-5 flex flex-col flex-1">
 
               {/* TITLE */}
@@ -147,6 +146,7 @@ export default function Shop() {
                   Buy Now
                 </a>
               </div>
+
             </div>
           </div>
         ))}
