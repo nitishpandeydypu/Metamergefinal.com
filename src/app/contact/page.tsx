@@ -28,7 +28,7 @@ Requirement: ${form.requirement}
 Message: ${form.note}`;
 
     window.open(
-      `https://wa.me/917827944832?text=${encodeURIComponent(msg)}`,
+      `https://wa.me/919234547310?text=${encodeURIComponent(msg)}`,
       "_blank"
     );
   };
@@ -83,8 +83,8 @@ Message: ${form.note}`;
                 <div>📞</div>
                 <div>
                   <p className="text-slate-500 text-xs">Phone</p>
-                  <a href="tel:7827944832" className="text-white">
-                    +91 7827944832
+                  <a href="tel:9234547310" className="text-white">
+                    +91 9234547310
                   </a>
                 </div>
               </div>
