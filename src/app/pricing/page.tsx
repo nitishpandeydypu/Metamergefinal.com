@@ -28,7 +28,109 @@ const handleBuyNow = (planName: string) => {
   const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
   window.open(url, "_blank");
 };
-
+const pricingTabs: Tab[] = [
+  {
+    category: "Single PC",
+    plans: [
+      {
+        name: "Base",
+        price: "₹1,499",
+        desc: "Best for beginners",
+        features: [
+          { text: "5 WhatsApp Device", included: true },
+          { text: "WhatsApp Bulk Messages", included: true },
+          { text: "Contacts List", included: true },
+          { text: "Interactive Templates", included: true },
+          { text: "Send Single Message", included: true },
+          { text: "Campaign Reports", included: true },
+          { text: "Opt-Out Management", included: true },
+          { text: "Auto Reply", included: true },
+          { text: "Chatbot", included: true },
+          { text: "Group Grabber", included: false },
+          { text: "Incoming Messages", included: false },
+          { text: "Manage Group", included: false },
+          { text: "Call Responder", included: false },
+          { text: "Follow Up", included: false },
+          { text: "WhatsApp Warmer", included: false },
+          { text: "Live Chat", included: false },
+          { text: "AI Chatbot", included: false },
+          { text: "Craousel Message", included: false },
+        ],
+      },
+      {
+        name: "Pro",
+        price: "₹1,999",
+        desc: "Perfect for agencies",
+        badge: "Most Popular",
+        highlight: true,
+        features: [
+          { text: "20 WhatsApp Devices", included: true },
+          { text: "WhatsApp Bulk Messages", included: true },
+          { text: "Contacts List", included: true },
+          { text: "Interactive Templates", included: true },
+          { text: "Send Single Message", included: true },
+          { text: "Campaign Reports", included: true },
+          { text: "Opt-Out Management", included: true },
+          { text: "Auto Reply", included: true },
+          { text: "Chatbot", included: true },
+          { text: "Group Grabber", included: true },
+          { text: "Incoming Messages", included: true },
+          { text: "Manage Group", included: true },
+          { text: "WhatsApp Warmer", included: true },
+          { text: "Follow Up", included: true },
+          { text: "Call Responder", included: false },
+          { text: "Live Chat", included: false },
+          { text: "AI Chatbot", included: false },
+          { text: "Craousel Message", included: false },
+        ],
+      },
+      {
+        name: "Elite",
+        price: "₹2,999",
+        desc: "High volume businesses",
+        features: [
+          { text: "30 WhatsApp Devices", included: true },
+          { text: "WhatsApp Bulk Messages", included: true },
+          { text: "Contacts List", included: true },
+          { text: "Interactive Templates", included: true },
+          { text: "Send Single Message", included: true },
+          { text: "Campaign Reports", included: true },
+          { text: "Opt-Out Management", included: true },
+          { text: "Auto Reply", included: true },
+          { text: "Chatbot", included: true },
+          { text: "Group Grabber", included: true },
+          { text: "Incoming Messages", included: true },
+          { text: "Manage Group", included: true },
+          { text: "Call Responder", included: true },
+          { text: "Follow Up", included: true },
+          { text: "WhatsApp Warmer", included: true },
+          { text: "Live Chat", included: true },
+          { text: "AI Chatbot", included: true },
+          { text: "Craousel Message", included: true },
+        ],
+      },
+    ],
+  },
+  {
+    category: "White Label",
+    plans: [
+      {
+        name: "White Label",
+        price: "₹14,999",
+        desc: "Application + Key Generator",
+        highlight: true,
+        features: [
+          { text: "Application + Key Generator", included: true },
+          { text: "Complete Desktop Application", included: true },
+          { text: "Cloud Based Licensing System", included: true },
+          { text: "Advanced AI Automation", included: true },
+          { text: "Multi-User Access", included: true },
+          { text: "Multi-Device Support", included: true },
+        ],
+      },
+    ],
+  },
+];
 export default function Pricing() {
   const [activeTab, setActiveTab] = useState(0);
 
