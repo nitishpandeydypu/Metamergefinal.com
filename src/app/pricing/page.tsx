@@ -22,7 +22,7 @@ type Tab = {
 };
 
 // ✅ WhatsApp Number (India)
-const WHATSAPP_NUMBER = "917827944832";
+const WHATSAPP_NUMBER = "919234547310";
 
 // ✅ WhatsApp Function
 const handleBuyNow = (planName: string) => {
