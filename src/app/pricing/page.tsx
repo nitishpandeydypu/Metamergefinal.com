@@ -13,7 +13,7 @@ type Plan = {
   desc: string;
   features: Feature[];
   highlight?: boolean;
-  badge?: string;
+  badge?: string; 
 };
 
 type Tab = {
