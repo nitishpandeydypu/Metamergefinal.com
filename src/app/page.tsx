@@ -137,7 +137,20 @@
 //               </div>
 
 //               {/* Main image placeholder */}
-//               <div className="relative w-full aspect-square max-w-md mx-auto">
+//               {/* Video Section */}
+<div className="relative w-full max-w-md mx-auto">
+  <div className="rounded-3xl overflow-hidden border border-brand-green/20 shadow-xl">
+    <video
+      className="w-full h-full object-cover"
+      autoPlay
+      loop
+      muted
+      playsInline
+    >
+      <source src="/video.mp4" type="video/mp4" />
+    </video>
+  </div>
+</div>
 //                 <div className="w-full h-full rounded-3xl bg-gradient-to-br from-brand-green/20 to-brand-accent/10 border border-brand-green/20 flex items-center justify-center green-glow">
 //                   <div className="text-center space-y-4 p-8">
 //                     <div className="w-24 h-24 bg-green-gradient rounded-3xl mx-auto flex items-center justify-center">
