@@ -101,7 +101,7 @@ export default function DownloadPage() {
                 <p className="text-slate-400 text-sm leading-relaxed mb-6">{p.desc}</p>
                 <div className="flex gap-3">
                   <a
-                    href="https://wa.me/917827944832"
+                    href="https://wa.me/919234547310"
                     className="btn-green text-white text-sm font-semibold px-6 py-2.5 rounded-xl flex items-center gap-2"
                   >
                     💬 Buy on WhatsApp
@@ -150,7 +150,7 @@ export default function DownloadPage() {
           <h2 className="font-heading text-3xl font-bold text-white mb-4">Need Help Choosing the Right Plan?</h2>
           <p className="text-slate-400 mb-8">Our team is available Monday to Friday, 11 AM – 5 PM to guide you.</p>
           <div className="flex flex-wrap gap-4 justify-center">
-            <a href="https://wa.me/917827944832" className="btn-green text-white font-semibold px-8 py-3 rounded-full text-sm">💬 Chat on WhatsApp</a>
+            <a href="https://wa.me/919234547310" className="btn-green text-white font-semibold px-8 py-3 rounded-full text-sm">💬 Chat on WhatsApp</a>
             <Link href="/pricing" className="btn-primary text-white font-semibold px-8 py-3 rounded-full text-sm">View All Plans →</Link>
           </div>
         </div>
