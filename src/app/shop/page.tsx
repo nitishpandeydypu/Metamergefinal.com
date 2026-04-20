@@ -137,7 +137,7 @@ export default function Shop() {
                 </div>
 
                 <a
-                  href={`https://wa.me/917827944832?text=Hi%20I%20am%20interested%20in%20${encodeURIComponent(
+                  href={`https://wa.me/919234547310?text=Hi%20I%20am%20interested%20in%20${encodeURIComponent(
                     p.name
                   )}`}
                   target="_blank"
