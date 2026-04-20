@@ -9,53 +9,30 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // ✅ WhatsApp (keep for buttons)
         brand: {
           green: "#25D366",
           dark: "#075E54",
           light: "#DCF8C6",
           accent: "#128C7E",
         },
-
-        // ✅ MAIN SaaS THEME
-        primary: "#7c3aed",   // purple
-        secondary: "#6366f1", // indigo
-
-        bg: "#ffffff",
-        section: "#f8fafc",
-
-        text: {
-          dark: "#0f172a",
-          light: "#64748b",
-        },
+        primary: "#0F172A",
+        secondary: "#1E293B",
       },
-
       fontFamily: {
         heading: ["'Plus Jakarta Sans'", "sans-serif"],
         body: ["'DM Sans'", "sans-serif"],
       },
-
       backgroundImage: {
-        // ✅ Main gradient
-        "primary-gradient":
-          "linear-gradient(to right, #7c3aed, #6366f1)",
-
-        // ✅ Light section gradient
-        "soft-gradient":
-          "linear-gradient(135deg, #f8fafc 0%, #ffffff 100%)",
-
-        // ✅ WhatsApp gradient
-        "green-gradient":
-          "linear-gradient(135deg, #25D366, #128C7E)",
+        "hero-gradient": "linear-gradient(135deg, #0F172A 0%, #1a2744 50%, #0f2a1a 100%)",
+        "card-gradient": "linear-gradient(145deg, #1E293B, #0F172A)",
+        "green-gradient": "linear-gradient(135deg, #25D366, #128C7E)",
       },
-
       animation: {
         float: "float 6s ease-in-out infinite",
         "pulse-slow": "pulse 4s ease-in-out infinite",
         "slide-up": "slideUp 0.6s ease-out forwards",
         "fade-in": "fadeIn 0.8s ease-out forwards",
       },
-
       keyframes: {
         float: {
           "0%, 100%": { transform: "translateY(0px)" },
@@ -74,5 +51,4 @@ const config: Config = {
   },
   plugins: [],
 };
-
 export default config;
