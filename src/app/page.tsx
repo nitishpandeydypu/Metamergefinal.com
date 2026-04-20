@@ -739,7 +739,7 @@ export default function HomePage() {
           const name = e.target.name.value;
           const msg = e.target.message.value;
 
-          const url = `https://wa.me/917827944832?text=Hi%20I'm%20${name}%20-%20${msg}`;
+          const url = `https://wa.me/919234547310?text=Hi%20I'm%20${name}%20-%20${msg}`;
           window.open(url, "_blank");
         }}
         className="flex flex-col gap-3"
