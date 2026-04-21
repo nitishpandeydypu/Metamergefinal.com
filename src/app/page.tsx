@@ -537,6 +537,31 @@ export default function HomePage() {
           </div>
         {/* </div> */}
       </section>
+      {/* 🎬 Demo Video Section */}
+<section className="py-14 px-6 bg-[#0a0f1e]">
+  <div className="max-w-5xl mx-auto text-center">
+
+    <h2 className="font-heading text-3xl md:text-4xl font-bold mb-6">
+      Watch <span className="gradient-text">Live Demo</span>
+    </h2>
+
+    <p className="text-slate-400 mb-8">
+      See how our WhatsApp marketing software works in real-time.
+    </p>
+
+    <div className="rounded-2xl overflow-hidden shadow-xl">
+      <iframe
+        className="w-full h-[250px] md:h-[450px]"
+        src="https://www.youtube.com/embed/VP1rFacoOb0"
+        title="Demo Video"
+        frameBorder="0"
+        allow="autoplay; encrypted-media"
+        allowFullScreen
+      ></iframe>
+    </div>
+
+  </div>
+</section>
 
       {/* Services */}
       <section className="py-14 px-6 bg-[#0d1326]">
