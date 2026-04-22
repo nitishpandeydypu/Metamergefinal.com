@@ -743,7 +743,7 @@ export default function HomePage() {
 
       {/* Close */}
       <button
-        onClick={() => setOpenSupport(false)}
+        onClick={() => setOpenSupport(true)}
         className="absolute top-3 right-3 text-black text-lg"
       >
         ✖
