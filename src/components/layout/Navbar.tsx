@@ -37,7 +37,7 @@ export default function Navbar() {
 
       {/* Navbar */}
       <nav className="sticky top-0 z-50 bg-[#0a0f1e]/95 backdrop-blur-md border-b border-white/5">
-        <div className="max-w-7xl mx-auto px-6  flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-6 flex items-center relative">
           <Link href="/" className="flex items-center gap-2">
             <img
               src="/company.png"
@@ -47,7 +47,7 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop */}
-          <ul className="hidden lg:flex items-center gap-7 text-sm text-slate-300">
+          <ul className="hidden lg:flex items-center gap-7 text-sm text-slate-300 absolute left-1/2 -translate-x-1/2">
             {navLinks.map((link) =>
               link.dropdown ? (
                 <li key={link.label} className="relative group">
