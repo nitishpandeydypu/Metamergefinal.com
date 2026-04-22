@@ -735,7 +735,51 @@ export default function HomePage() {
           </div>
         </div>
             </section>
+{/* SUPPORT MODAL */}
+{openSupport && (
+  <div className="fixed inset-0 bg-black/50 z-[999] flex items-center justify-center p-4">
 
+    <div className="bg-white w-full max-w-3xl rounded-xl p-6 relative">
+
+      {/* Close */}
+      <button
+        onClick={() => setOpenSupport(false)}
+        className="absolute top-3 right-3 text-black text-lg"
+      >
+        ✖
+      </button>
+
+      <h2 className="text-xl font-bold mb-4">Support Ticket</h2>
+
+      <form
+        onSubmit={(e) => {
+          e.preventDefault();
+
+          const form = e.currentTarget;
+
+          const name = (form.elements.namedItem("name") as HTMLInputElement).value;
+          const phone = (form.elements.namedItem("phone") as HTMLInputElement).value;
+          const message = (form.elements.namedItem("message") as HTMLTextAreaElement).value;
+
+          const text = `Hi, I need support\nName: ${name}\nPhone: ${phone}\nMessage: ${message}`;
+          const url = `https://wa.me/917827944832?text=${encodeURIComponent(text)}`;
+
+          window.open(url, "_blank");
+        }}
+        className="space-y-3"
+      >
+        <input name="name" placeholder="Name" className="w-full border p-2 rounded" />
+        <input name="phone" placeholder="WhatsApp Number" className="w-full border p-2 rounded" />
+        <textarea name="message" placeholder="Message" className="w-full border p-2 rounded h-24"></textarea>
+
+        <button className="bg-green-500 text-white px-4 py-2 rounded">
+          Submit
+        </button>
+      </form>
+
+    </div>
+  </div>
+)}
     </div>
   );
 }
