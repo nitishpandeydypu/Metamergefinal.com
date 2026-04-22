@@ -743,6 +743,10 @@ export default function HomePage() {
 
       {/* Close */}
       <button
+        onClick={() => {
+  alert("clicked");
+  setOpenSupport(true);
+}}
         onClick={() => setOpenSupport(true)}
         className="absolute top-3 right-3 text-black text-lg"
       >
