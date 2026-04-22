@@ -741,19 +741,17 @@ export default function HomePage() {
 
     <div className="bg-white w-full max-w-3xl rounded-xl p-6 relative">
 
-      {/* Close */}
-      <button
-        onClick={() => {
-  alert("clicked");
-  setOpenSupport(true);
-}}
-        className="absolute top-3 right-3 text-black text-lg"
-      >
-        ✖
-      </button>
+     <div className="bg-white w-full max-w-3xl rounded-xl p-6 relative">
 
-      <h2 className="text-xl font-bold mb-4">Support Ticket</h2>
+  {/* ❌ Close Button */}
+  <button
+    onClick={() => setOpenSupport(false)}
+    className="absolute top-3 right-3 text-black text-lg"
+  >
+    ✖
+  </button>
 
+  <h2 className="text-xl font-bold mb-4">Support Ticket</h2>
       <form
         onSubmit={(e) => {
           e.preventDefault();
