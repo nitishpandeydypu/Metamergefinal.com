@@ -482,14 +482,7 @@ export default function HomePage() {
     ⬇ Fast Download
   </a>
 
- <div className="fixed right-6 top-6 z-50">
-  <button
-    onClick={() => setOpenSupport(true)}
-    className="flex items-center gap-2 bg-green-500 text-white px-5 py-3 rounded-full shadow-lg hover:scale-110 transition-all duration-300"
-  >
-    💬 <span className="font-semibold text-sm">Support</span>
-  </button>
-</div>
+ 
 
 </div>
 </div>
