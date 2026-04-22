@@ -747,7 +747,6 @@ export default function HomePage() {
   alert("clicked");
   setOpenSupport(true);
 }}
-        onClick={() => setOpenSupport(true)}
         className="absolute top-3 right-3 text-black text-lg"
       >
         ✖
