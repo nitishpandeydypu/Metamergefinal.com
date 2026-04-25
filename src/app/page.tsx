@@ -631,127 +631,22 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* FAQ Section */}
-      <section className="py-14 px-6 bg-[#0d1326]">
-        <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-14">
-            <p className="text-green-400 text-sm font-semibold uppercase tracking-widest mb-3">FAQ</p>
-            <h2 className="font-heading text-4xl md:text-5xl font-bold">
-              Frequently Asked <span className="gradient-text">Questions</span>
-            </h2>
-            <p className="text-slate-400 mt-4 text-base">
-              Everything you need to know about Metamerge and our services.
-            </p>
-          </div>
-
-          <div className="space-y-3">
-            {faqs.map((faq, index) => (
-              <details
-                key={index}
-                className="group bg-[#111827] border border-white/5 rounded-2xl overflow-hidden hover:border-green-500/20 transition-colors duration-300"
-              >
-                <summary className="flex items-center justify-between gap-4 px-6 py-5 cursor-pointer list-none select-none">
-                  <span className="font-heading font-semibold text-white text-sm md:text-base leading-snug">
-                    {faq.question}
-                  </span>
-                  <span className="flex-shrink-0 w-7 h-7 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-slate-400 group-open:bg-green-500/10 group-open:border-green-500/30 group-open:text-green-400 transition-all duration-300">
-                    <svg
-                      className="w-3.5 h-3.5 transition-transform duration-300 group-open:rotate-45"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth={2.5}
-                      viewBox="0 0 24 24"
-                    >
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" />
-                    </svg>
-                  </span>
-                </summary>
-                <div className="px-6 pb-5">
-                  <div className="h-px bg-white/5 mb-4" />
-                  <p className="text-slate-400 text-sm leading-relaxed">{faq.answer}</p>
-                </div>
-              </details>
-            ))}
-          </div>
-
-          
-        </div>
-      </section>
-
-
-      {/* Stats Section */}
-      <section id="stats" className="py-14 px-6 bg-[#0a0f1e]">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-14 space-y-4">
-            <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white">
-              Why Businesses{" "}
-              <span className="gradient-text">Trust Metamerge</span>
-            </h2>
-            <p className="text-slate-400 text-lg max-w-2xl mx-auto">
-              Numbers that speak for our success — from software sales to satisfied resellers, here's how we're making a difference.
-            </p>
-          </div>
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
-            {statsData.map((stat) => {
-              const Icon = stat.icon;
-              return (
-                <div
-                  key={stat.label}
-                  className="group glass-card rounded-2xl p-6 border border-white/10 hover:border-brand-green/30 transition-all text-center hover:-translate-y-2"
-                >
-                  <div className="w-14 h-14 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
-                    <Icon size={26} className={stat.color} />
-                  </div>
-                  <p className={`text-3xl sm:text-4xl font-heading font-extrabold ${stat.color} mb-2`}>
-                    <Counter target={stat.value} suffix={stat.suffix} />
-                  </p>
-                  <p className="text-slate-400 text-sm font-medium leading-snug">{stat.label}</p>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-
-
-
-      {/* CTA Banner */}
-      <section className="py-16 px-6 bg-gradient-to-r from-[#128c7e] via-[#25d366] to-[#075e54]">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="font-heading text-3xl md:text-4xl font-bold text-white mb-4">
-            Ready to Boost Your Revenue 5X?
-          </h2>
-          <p className="text-green-100 mb-8 text-lg">
-            Start with WhatsApp marketing today. Smarter. Faster. Zero guesswork.
-          </p>
-          <div className="flex flex-wrap gap-4 justify-center">
-            <a href="https://wa.me/919234547310" className="bg-white text-green-700 font-bold px-10 py-3 rounded-full text-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
-              💬 Talk to Sales
-            </a>
-            <Link href="/pricing" className="border-2 border-white/50 text-white font-semibold px-10 py-3 rounded-full text-sm hover:bg-white/10 transition-all">
-              View Pricing →
-            </Link>
-          </div>
-        </div>
-            </section>
-{/* SUPPORT MODAL */}
+      {/* SUPPORT MODAL */}
 {openSupport && (
   <div className="fixed inset-0 bg-black/50 z-[999] flex items-center justify-center p-4">
 
     <div className="bg-white w-full max-w-3xl rounded-xl p-6 relative">
 
-     <div className="bg-white w-full max-w-3xl rounded-xl p-6 relative">
+      {/* ❌ Close Button */}
+      <button
+        onClick={() => setOpenSupport(false)}
+        className="absolute top-3 right-3 text-black text-lg"
+      >
+        ✖
+      </button>
 
-  {/* ❌ Close Button */}
-  <button
-    onClick={() => setOpenSupport(false)}
-    className="absolute top-3 right-3 text-black text-lg"
-  >
-    ✖
-  </button>
+      <h2 className="text-xl font-bold mb-4">Support Ticket</h2>
 
-  <h2 className="text-xl font-bold mb-4">Support Ticket</h2>
       <form
         onSubmit={(e) => {
           e.preventDefault();
@@ -781,6 +676,3 @@ export default function HomePage() {
     </div>
   </div>
 )}
-    </div>
-  );
-}
