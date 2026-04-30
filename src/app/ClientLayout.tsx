@@ -14,7 +14,7 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
 
       <main>{children}</main>
 
-      <Footer />
+  
 
       {/* 🔥 SUPPORT MODAL (YAHI FINAL HAI) */}
       {openSupport && (
