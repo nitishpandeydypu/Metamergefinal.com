@@ -242,15 +242,8 @@ export default function Pricing() {
           ))}
         </div>
 
-        {/* Offer Banner */}
-        <div className="mt-12 bg-green-50 border border-green-200 p-4 rounded-xl text-center">
-          <p className="text-lg font-semibold text-green-600">
-            🎁 BUY 1 GET 1 FREE - Limited Time Offer
-          </p>
-        </div>
-
         {/* Footer */}
-        <p className="text-center text-gray-500 text-sm mt-10">
+        <p className="text-center text-red-500 text-sm mt-10">
           ⚠ GST Extra as per applicable rates
         </p>
 
