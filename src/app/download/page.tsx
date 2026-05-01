@@ -21,6 +21,30 @@ const products = [
     image: "/Picture3.png",
     file: "wacrm.zip",
   },
+  {
+    id: 4,
+    name: "WhatsApp Bulk Sender Pro",
+    image: "/Picture4.png",
+    file: "bulk-pro.zip",
+  },
+  {
+    id: 5,
+    name: "Metamerge Pilot Sender",
+    image: "/Picture6.png",
+    file: "pilot.zip",
+  },
+  {
+    id: 6,
+    name: "WA Sender",
+    image: "/Picture7.png",
+    file: "wa-sender.zip",
+  },
+  {
+    id: 7,
+    name: "Google Map Extractor",
+    image: "/Picture5.png",
+    file: "map-extractor.zip",
+  },
 ];
 
 export default function DownloadPage() {
@@ -54,7 +78,7 @@ export default function DownloadPage() {
                 href={`${BASE_URL}/${p.file}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-green-600 text-white px-6 py-2.5 rounded-lg text-sm font-semibold hover:bg-green-500 transition"
+                className="bg-gradient-to-r from-green-500 to-emerald-600 text-white px-6 py-2.5 rounded-lg text-sm font-semibold shadow-lg hover:scale-105 transition"
               >
                 ⬇ Download
               </a>
