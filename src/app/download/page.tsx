@@ -8,12 +8,6 @@ const products = [
     link: "https://pub-4b46c92e74ba4724a0f1af6058235698.r2.dev/Metamerge%20Setup%205.0.0%20(2).zip",
   },
   {
-    id: 2,
-    name: "MetaMerge Cloud Centre",
-    image: "/Picture2.png",
-    link: "https://pub-4b46c92e74ba4724a0f1af6058235698.r2.dev/wasender.5.0.7.exe",
-  },
-  {
     id: 3,
     name: "WaCRM - Multi-Account CRM",
     image: "/Picture3.png",
