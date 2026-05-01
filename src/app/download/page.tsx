@@ -1,43 +1,47 @@
 "use client";
 
-const BASE_URL = "https://pub-4b46c92e74ba4724a0f1af6058235698.r2.dev";
-
 const products = [
   {
     id: 1,
     name: "Metamerge Window Based Software",
     image: "/Picture1.png",
-    file: "window-software.zip",
+    link: "https://pub-4b46c92e74ba4724a0f1af6058235698.r2.dev/Metamerge%20Setup%205.0.0%20(2).zip",
+  },
+  {
+    id: 2,
+    name: "MetaMerge Cloud Centre",
+    image: "/Picture2.png",
+    link: "https://pub-4b46c92e74ba4724a0f1af6058235698.r2.dev/wasender.5.0.7.exe",
   },
   {
     id: 3,
-    name: "WaCRM – Multi-Account CRM",
+    name: "WaCRM - Multi-Account CRM",
     image: "/Picture3.png",
-    file: "wacrm.zip",
+    link: "https://pub-4b46c92e74ba4724a0f1af6058235698.r2.dev/wacrm.exe",
   },
   {
     id: 4,
     name: "WhatsApp Bulk Sender Pro",
     image: "/Picture4.png",
-    file: "bulk-pro.zip",
+    link: "https://pub-4b46c92e74ba4724a0f1af6058235698.r2.dev/Multi-Account.WhatsApp.Pro.Installer%20(1).exe",
   },
   {
     id: 5,
     name: "Metamerge Pilot Sender",
     image: "/Picture6.png",
-    file: "pilot.zip",
+    link: "https://pub-4b46c92e74ba4724a0f1af6058235698.r2.dev/Bulk.Pilot%20(2).msi",
   },
   {
     id: 6,
     name: "WA Sender",
     image: "/Picture7.png",
-    file: "wa-sender.zip",
+    link: "https://pub-4b46c92e74ba4724a0f1af6058235698.r2.dev/wasender.5.0.7.exe",
   },
   {
     id: 7,
     name: "Google Map Extractor",
     image: "/Picture5.png",
-    file: "map-extractor.zip",
+    link: "https://pub-4b46c92e74ba4724a0f1af6058235698.r2.dev/GMExtractorSetUp.msi",
   },
 ];
 
@@ -69,7 +73,7 @@ export default function DownloadPage() {
 
               {/* DOWNLOAD BUTTON */}
               <a
-                href={`${BASE_URL}/${p.file}`}
+                href={p.link}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gradient-to-r from-green-500 to-emerald-600 text-white px-6 py-2.5 rounded-lg text-sm font-semibold shadow-lg hover:scale-105 transition"
