@@ -2,7 +2,10 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Footer from "@/components/layout/Footer";
 import Script from "next/script";
-import ClientLayout from "./ClientLayout"; // ✅ ADD
+import ClientLayout from "./ClientLayout";
+
+// ✅ ADD THIS
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 export const metadata: Metadata = {
   title: "Metamerge – WhatsApp Marketing & Digital Solutions",
@@ -39,6 +42,9 @@ export default function RootLayout({
 
         {/* ✅ Footer */}
         <Footer />
+
+        {/* ✅ WHATSAPP FLOAT BUTTON (GLOBAL) */}
+        <WhatsAppButton />
 
         {/* 🔥 Google Analytics */}
         <Script
