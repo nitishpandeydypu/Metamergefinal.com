@@ -10,12 +10,6 @@ const products = [
     file: "window-software.zip",
   },
   {
-    id: 2,
-    name: "MetaMerge Cloud Centre",
-    image: "/Picture2.png",
-    file: "cloud-centre.zip",
-  },
-  {
     id: 3,
     name: "WaCRM – Multi-Account CRM",
     image: "/Picture3.png",
