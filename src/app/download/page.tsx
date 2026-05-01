@@ -11,13 +11,6 @@ const products = [
     features: ["Bulk Messaging", "Multi Accounts", "AI Chatbot"],
   },
   {
-    id: 2,
-    name: "MetaMerge Cloud Centre",
-    image: "/Picture2.png",
-    file: "cloud-centre.zip",
-    features: ["Unlimited Messages", "Automation", "API Access"],
-  },
-  {
     id: 3,
     name: "WaCRM – Multi-Account CRM",
     image: "/Picture3.png",
@@ -44,13 +37,6 @@ const products = [
     image: "/Picture7.png",
     file: "wa-sender.zip",
     features: ["WhatsApp Marketing"],
-  },
-  {
-    id: 7,
-    name: "Google Map Extractor",
-    image: "/Picture5.png",
-    file: "map-extractor.zip",
-    features: ["Lead Extraction", "Export Data"],
   },
 ];
 
