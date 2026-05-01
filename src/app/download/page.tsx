@@ -7,11 +7,12 @@ const products = [
     id: 1,
     name: "Metamerge Window Based Software",
     image: "/Picture1.png",
-    file: "window-software.zip",
+    file: "Metamerge%20Setup%205.0.0%20(2).zip",
   },
+];
   {
     id: 3,
-    name: "WaCRM – Multi-Account CRM",
+    name: "WaCRM – Multi-Account CRM (V 4.0.2)",
     image: "/Picture3.png",
     file: "wacrm.zip",
   },
@@ -23,13 +24,13 @@ const products = [
   },
   {
     id: 5,
-    name: "Metamerge Pilot Sender",
+    name: "Metamerge Pilot Sender (V 2.1.0)",
     image: "/Picture6.png",
     file: "pilot.zip",
   },
   {
     id: 6,
-    name: "WA Sender",
+    name: "WA Sender (V.5.0.7)",
     image: "/Picture7.png",
     file: "wa-sender.zip",
   },
