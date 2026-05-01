@@ -11,31 +11,31 @@ const products = [
   },
 ];
   {
-    id: 3,
-    name: "WaCRM – Multi-Account CRM (V 4.0.2)",
+    id: 2,
+    name: "WaCRM - Multi-Account CRM (V 4.0.2)",
     image: "/Picture3.png",
     file: "wacrm.zip",
   },
   {
-    id: 4,
+    id: 3,
     name: "WhatsApp Bulk Sender Pro",
     image: "/Picture4.png",
     file: "bulk-pro.zip",
   },
   {
-    id: 5,
+    id: 4,
     name: "Metamerge Pilot Sender (V 2.1.0)",
     image: "/Picture6.png",
     file: "pilot.zip",
   },
   {
-    id: 6,
+    id: 5,
     name: "WA Sender (V.5.0.7)",
     image: "/Picture7.png",
     file: "wa-sender.zip",
   },
   {
-    id: 7,
+    id: 6,
     name: "Google Map Extractor",
     image: "/Picture5.png",
     file: "map-extractor.zip",
