@@ -8,35 +8,30 @@ const products = [
     name: "Metamerge Window Based Software",
     image: "/Picture1.png",
     file: "window-software.zip",
-    features: ["Bulk Messaging", "Multi Accounts", "AI Chatbot"],
   },
   {
     id: 3,
     name: "WaCRM – Multi-Account CRM",
     image: "/Picture3.png",
     file: "wacrm.zip",
-    features: ["Lead Management", "Reminder", "Chat Filter"],
   },
   {
     id: 4,
     name: "WhatsApp Bulk Sender Pro",
     image: "/Picture4.png",
     file: "bulk-pro.zip",
-    features: ["Bulk Messaging", "Automation"],
   },
   {
     id: 5,
     name: "Metamerge Pilot Sender",
     image: "/Picture6.png",
     file: "pilot.zip",
-    features: ["Bulk Sender", "AI Chatbot"],
   },
   {
     id: 6,
     name: "WA Sender",
     image: "/Picture7.png",
     file: "wa-sender.zip",
-    features: ["WhatsApp Marketing"],
   },
 ];
 
