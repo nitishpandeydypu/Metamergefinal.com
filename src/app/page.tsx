@@ -476,11 +476,14 @@ export default function HomePage() {
     Get Started Free →
   </Link>
 
-  {/* Telegram Download */}
-  <a href="https://t.me/metamerge_download/2" target="_blank"
-     className="bg-green-600 text-white font-semibold px-8 py-3.5 rounded-full text-sm hover:bg-green-700 transition">
-    ⬇ Fast Download
-  </a>
+ <a 
+  href="https://pub-4b46c92e74ba4724a0f1af6058235698.r2.dev/your-file.zip"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-green-600 text-white font-semibold px-8 py-3.5 rounded-full text-sm hover:bg-green-700 transition"
+>
+  ⬇ Fast Download (150MB)
+</a>
 
  
 
