@@ -19,25 +19,7 @@ const products = [
       "Auto Reply",
     ],
   },
-  {
-    id: 2,
-    name: "MetaMerge Cloud Centre",
-    image: "/Picture2.png",
-    price: 1999,
-    description:
-      "Send personalized bulk messages at scale with smart scheduling on your phone.",
-    features: [
-      "Unlimited Messages",
-      "Full Automation",
-      "CTA Buttons",
-      "AI Chatbot 24x7",
-      "List Menu",
-      "Scheduling",
-      "Auto Responder",
-      "API Access",
-      "Group Grabber",
-    ],
-  },
+  
   {
     id: 3,
     name: "WaCRM – Multi-Account CRM",
