@@ -64,7 +64,7 @@ Message: ${form.note}`;
                 <div>
                   <p className="text-slate-500 text-xs">Address</p>
                   <p className="text-white text-sm">
-                    Pune, Maharashtra
+                   C86,Talegaon, Pune, Maharashtra
                   </p>
                 </div>
               </div>
