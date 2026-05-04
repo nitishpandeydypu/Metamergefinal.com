@@ -46,6 +46,7 @@ const pricingTabs: Tab[] = [
           { text: "Opt-Out Management", included: true },
           { text: "Auto Reply", included: true },
           { text: "Chatbot", included: true },
+          { text: "Craousel Message", included: true },
           { text: "Group Grabber", included: false },
           { text: "Incoming Messages", included: false },
           { text: "Manage Group", included: false },
@@ -54,7 +55,7 @@ const pricingTabs: Tab[] = [
           { text: "WhatsApp Warmer", included: false },
           { text: "Live Chat", included: false },
           { text: "AI Chatbot", included: false },
-          { text: "Craousel Message", included: false },
+         
         ],
       },
       {
@@ -72,7 +73,8 @@ const pricingTabs: Tab[] = [
           { text: "Campaign Reports", included: true },
           { text: "Opt-Out Management", included: true },
           { text: "Auto Reply", included: true },
-          { text: "Chatbot", included: true },
+          { text: "Chatbot", included: true }, 
+          { text: "Craousel Message", included: true },
           { text: "Group Grabber", included: true },
           { text: "Incoming Messages", included: true },
           { text: "Manage Group", included: true },
@@ -81,7 +83,7 @@ const pricingTabs: Tab[] = [
           { text: "Call Responder", included: false },
           { text: "Live Chat", included: false },
           { text: "AI Chatbot", included: false },
-          { text: "Craousel Message", included: false },
+          
         ],
       },
       {
@@ -97,7 +99,8 @@ const pricingTabs: Tab[] = [
           { text: "Campaign Reports", included: true },
           { text: "Opt-Out Management", included: true },
           { text: "Auto Reply", included: true },
-          { text: "Chatbot", included: true },
+          { text: "Chatbot", included: true },  
+          { text: "Craousel Message", included: true },
           { text: "Group Grabber", included: true },
           { text: "Incoming Messages", included: true },
           { text: "Manage Group", included: true },
@@ -106,7 +109,6 @@ const pricingTabs: Tab[] = [
           { text: "WhatsApp Warmer", included: true },
           { text: "Live Chat", included: true },
           { text: "AI Chatbot", included: true },
-          { text: "Craousel Message", included: true },
         ],
       },
     ],
@@ -120,7 +122,7 @@ const pricingTabs: Tab[] = [
         desc: "Application + Key Generator",
         highlight: true,
         features: [
-          { text: "Application + Key Generator", included: true },
+          { text: "Application + Unlimited Key Generator", included: true },
           { text: "Complete Desktop Application", included: true },
           { text: "Cloud Based Licensing System", included: true },
           { text: "Advanced AI Automation", included: true },
