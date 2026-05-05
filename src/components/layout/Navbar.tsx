@@ -41,15 +41,15 @@ export default function Navbar({ setOpenSupport }: any) {
       {/* Navbar */}
       <nav className="sticky top-0 z-50 bg-[#0a0f1e]/80 backdrop-blur-lg border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 flex items-center relative h-20">
-          
-         {/* Logo */}
-<Link href="/" className="flex items-center gap-2 z-10">
-  <img 
-    src="/company.png" 
-    alt="Company Logo" 
-    className="h-[80px] w-auto object-contain mix-blend-multiply"
-  />
-</Link>
+
+          {/* Logo */}
+          <Link href="/" className="flex items-center gap-2 z-10">
+            <img 
+              src="/company.png" 
+              alt="Company Logo" 
+              className="h-[75px] w-auto object-contain"
+            />
+          </Link>
 
           {/* Menu */}
           <ul className="hidden lg:flex items-center gap-7 text-sm text-slate-300 absolute left-1/2 -translate-x-1/2">
@@ -67,12 +67,16 @@ export default function Navbar({ setOpenSupport }: any) {
                   <div
                     onMouseEnter={() => setDropOpen(true)}
                     onMouseLeave={() => setDropOpen(false)}
-                    className={`absolute top-full left-0 w-60 bg-[#111827] border border-white/10 rounded-xl py-2 ${
-                      dropOpen ? "opacity-100" : "opacity-0 pointer-events-none"
+                    className={`absolute top-full left-0 w-60 bg-[#111827] border border-white/10 rounded-xl py-2 transition-all duration-200 ${
+                      dropOpen ? "opacity-100 visible" : "opacity-0 invisible"
                     }`}
                   >
                     {link.dropdown.map((d) => (
-                      <Link key={d.label} href={d.href} className="block px-4 py-2 text-sm hover:text-blue-400">
+                      <Link
+                        key={d.label}
+                        href={d.href}
+                        className="block px-4 py-2 text-sm hover:text-blue-400"
+                      >
                         {d.label}
                       </Link>
                     ))}
@@ -90,11 +94,9 @@ export default function Navbar({ setOpenSupport }: any) {
 
           {/* Right */}
           <div className="hidden lg:flex items-center gap-4 ml-auto z-10">
-
-            {/* Support Button ✅ FIX */}
             <button
               onClick={() => setOpenSupport(true)}
-              className="bg-purple-600 hover:bg-purple-700 text-white px-5 py-2 rounded-full text-sm"
+              className="bg-purple-600 hover:bg-purple-700 text-white px-5 py-2 rounded-full text-sm transition"
             >
               Support Ticket
             </button>
@@ -102,7 +104,7 @@ export default function Navbar({ setOpenSupport }: any) {
 
           {/* Mobile Menu Button */}
           <button
-            className="lg:hidden text-white ml-auto z-10"
+            className="lg:hidden text-white ml-auto z-10 text-2xl"
             onClick={() => setMenuOpen(!menuOpen)}
           >
             ☰
@@ -123,7 +125,6 @@ export default function Navbar({ setOpenSupport }: any) {
               </Link>
             ))}
 
-            {/* Mobile Support Button ✅ */}
             <button
               onClick={() => setOpenSupport(true)}
               className="bg-purple-600 text-white px-4 py-2 rounded mt-2"
