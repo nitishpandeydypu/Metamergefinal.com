@@ -44,7 +44,7 @@ export default function Navbar({ setOpenSupport }: any) {
           
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 z-10">
-            <img src="/company.png" alt="Company Logo" className="h-[60px]" />
+            <img src="/company.png" alt="Company Logo" className="h-[80px] w-auto" />
           </Link>
 
           {/* Menu */}
