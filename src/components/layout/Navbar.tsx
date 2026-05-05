@@ -42,10 +42,14 @@ export default function Navbar({ setOpenSupport }: any) {
       <nav className="sticky top-0 z-50 bg-[#0a0f1e]/80 backdrop-blur-lg border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 flex items-center relative h-20">
           
-          {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 z-10">
-            <img src="/company.png" alt="Company Logo" className="h-[80px] w-auto" />
-          </Link>
+         {/* Logo */}
+<Link href="/" className="flex items-center gap-2 z-10">
+  <img 
+    src="/company.png" 
+    alt="Company Logo" 
+    className="h-[80px] w-auto object-contain mix-blend-multiply"
+  />
+</Link>
 
           {/* Menu */}
           <ul className="hidden lg:flex items-center gap-7 text-sm text-slate-300 absolute left-1/2 -translate-x-1/2">
