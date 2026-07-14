@@ -57,8 +57,12 @@ export default function ApiSolutionPage() {
               Businesses are increasingly using WhatsApp to communicate with clients on their preferred platform. The perfect tool for seamless connectivity across all digital platforms.
             </p>
             <div className="flex flex-wrap gap-4">
-              <Link href="/contact" className="btn-green text-white font-semibold px-8 py-3 rounded-full text-sm">Free Trial →</Link>
-              <a href="https://wa.me/917827944832" className="border border-green-500/40 text-green-400 font-semibold px-8 py-3 rounded-full text-sm hover:bg-green-500/10 transition-all">
+<a
+  href="https://official.metamerged.com/contact"
+  className="btn-green text-white font-semibold px-8 py-3 rounded-full text-sm"
+>
+  Free Trail →
+</a>              <a href="https://wa.me/917827944832" className="border border-green-500/40 text-green-400 font-semibold px-8 py-3 rounded-full text-sm hover:bg-green-500/10 transition-all">
                 Contact Us
               </a>
             </div>
