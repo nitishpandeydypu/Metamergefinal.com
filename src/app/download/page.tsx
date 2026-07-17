@@ -14,9 +14,9 @@ const products = [
   {
     id: 1,
     name: "Metamerge Window Based Software",
-    version: "V7.0.0",
+    version: "V9.0.0",
     image: "/Picture1.png",
-    link: "https://pub-4b46c92e74ba4724a0f1af6058235698.r2.dev/Metamerge%20Setup%207.0.0.zip",
+    link: "https://pub-4b46c92e74ba4724a0f1af6058235698.r2.dev/Metamerge%20Setup%209.0.0.zip",
     fileType: "ZIP",
     description: "Complete desktop setup package for the main Metamerge suite.",
   },
