@@ -185,7 +185,7 @@ const pricingTabs: Tab[] = [
     { text: "Auto Reply", included: true },
     { text: "Chatbot", included: true },
     { text: "Integrations", included: true },
-    { text: "Live Chat", included: false },
+    { text: "Live Chat", included: true },
     { text: "AI Chatbot", included: false },
     { text: "REST API", included: false },
     { text: "GHL Integration", included: false },
