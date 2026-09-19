@@ -44,7 +44,7 @@ const pricingTabs: Tab[] = [
         yearlyPrice: "₹1,499",
         desc: "Best for beginners",
         features: [
-          { text: "5 WhatsApp Device", included: true },
+          { text: "5 WhatsApp Account ", included: true },
           { text: "WhatsApp Bulk Messages", included: true },
           { text: "Contacts List", included: true },
           { text: "Interactive Templates", included: true },
@@ -73,7 +73,7 @@ const pricingTabs: Tab[] = [
         badge: "Most Popular",
         highlight: true,
         features: [
-          { text: "20 WhatsApp Devices", included: true },
+          { text: "20 WhatsApp Account", included: true },
           { text: "WhatsApp Bulk Messages", included: true },
           { text: "Contacts List", included: true },
           { text: "Interactive Templates", included: true },
@@ -100,7 +100,7 @@ const pricingTabs: Tab[] = [
         yearlyPrice: "₹2,999",
         desc: "High volume businesses",
         features: [
-          { text: "30 WhatsApp Devices", included: true },
+          { text: "30 WhatsApp Account", included: true },
           { text: "WhatsApp Bulk Messages", included: true },
           { text: "Contacts List", included: true },
           { text: "Interactive Templates", included: true },
@@ -126,7 +126,7 @@ const pricingTabs: Tab[] = [
   yearlyPrice: "₹1,999",
   desc: "Best for startups",
   features: [
-    { text: "1 WhatsApp Devices", included: true },
+    { text: "1 WhatsApp Account", included: true },
     { text: "Cloud Dashboard", included: true },
     { text: "Devices", included: true },
     { text: "Templates", included: true },
@@ -164,7 +164,7 @@ const pricingTabs: Tab[] = [
   highlight: true,
   badge: "Most Popular",
   features: [
-    { text: "3 WhatsApp Devices", included: true },
+    { text: "3 WhatsApp Account", included: true },
     { text: "Cloud Dashboard", included: true },
     { text: "Devices", included: true },
     { text: "Templates", included: true },
@@ -200,7 +200,7 @@ const pricingTabs: Tab[] = [
   yearlyPrice: "₹3,999",
   desc: "Advanced cloud automation",
   features: [
-    { text: "5 WhatsApp Devices", included: true },
+    { text: "5 WhatsApp Account", included: true },
     { text: "Cloud Dashboard", included: true },
     { text: "Devices", included: true },
     { text: "Templates", included: true },
