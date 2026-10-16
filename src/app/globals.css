@@ -209,3 +209,17 @@
     box-shadow: 0 8px 24px rgba(37, 211, 102, 0.4);
   }
 }
+/* Fix menu button visibility */
+html:not([data-theme='dark']) header button,
+html:not([data-theme='dark']) nav button {
+  color: #0f172a !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+html[data-theme='dark'] header button,
+html[data-theme='dark'] nav button {
+  color: #ffffff !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
