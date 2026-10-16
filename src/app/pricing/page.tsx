@@ -22,7 +22,7 @@ type Tab = {
   plans: Plan[];
 };
 
-const WHATSAPP_NUMBER = "919234547310";
+const WHATSAPP_NUMBER = "917309653661";
 
 const handleBuyNow = (planName: string) => {
   const message = `Hi 👋 I want to buy the *${planName}* plan from Metamerge 🚀 Please guide me.`;
