@@ -126,7 +126,7 @@ export default function Shop() {
                 Browse Products
               </a>
               <a
-                href="https://wa.me/919234547310?text=Hi%20I%20need%20help%20choosing%20software"
+                href="https://wa.me/917309653661?text=Hi%20I%20need%20help%20choosing%20software"
                 target="_blank"
                 className="inline-flex items-center justify-center gap-2 rounded-full border border-[var(--border-soft)] bg-[var(--surface)] px-6 py-3 text-sm font-bold text-[var(--text-primary)] hover:-translate-y-0.5 hover:border-emerald-400/70"
               >
@@ -242,7 +242,7 @@ export default function Shop() {
                   </div>
 
                   <a
-                    href={`https://wa.me/919234547310?text=Hi%20I%20am%20interested%20in%20${encodeURIComponent(
+                    href={`https://wa.me/917309653661?text=Hi%20I%20am%20interested%20in%20${encodeURIComponent(
                       product.name
                     )}`}
                     target="_blank"
